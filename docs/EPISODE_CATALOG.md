@@ -65,7 +65,39 @@ These are **not yet published**. No production dates committed. Dice variants be
 - **The Oracle of Small Decisions**: yes/no, coin toss, cardinal directions, colors, short choices, degrees of success.
 - **Found-voice D20**: one or more real famous people saying the numbers (James Earl Jones, J.R.R. Tolkien, Tom Rosenthal's *157*, Kermit, Sesame Street performers). Research and rights clearance required before publishing, including sound recording, underlying music, character/likeness/publicity considerations. No assumed clearance from a short duration.
 
+## Category 3: Encounter Streams
+
+- **The Wilderness Oracle / Wilderness Encounters:** eighty original independent scenarios drafted as a first ~30-minute manuscript, no repetition of a smaller list. Printed numbers and titles are **not read** aloud. Entries contain enough setting and decision texture to use by themselves.
+- **Dungeon Encounters, Road Encounters, Urban Encounters, Social Encounters:** related all-unique collections.
+
+## Category 4: Oracles & Decision Aids
+
+- **Yes / No Oracle**: yes/no with optionally skewed probabilities and compound outcomes such as yes-and/no-but.
+
+### Distinctness requirement for long generator episodes
+
+A short dice episode repeats values by design. A thirty-minute encounter stream should *not* repeat the same printed table. Every segment should offer a different original encounter within a given episode. Define seeds and repeat policy if more than one installment exists, and track duplication/near-duplication across releases.
+
+## Category 5: Characters, Locations & Worlds
+
+- **Dungeon Discoveries**: new rooms, architectural anomalies, broken rituals and curious objects.
+- **The Tavern**: patrons, rumors, disturbances and overheard fragments.
+- **NPC Generator**: occupation, motive, mannerism, distinguishing detail and relationship.
+- **Weather Oracle**: conditions weighted by climate, season and terrain.
+- **Rumors & Secrets**: hooks, scandals, revelations and misleading leads.
+- **Treasure Beyond Gold**: odd possessions, inscriptions and discoveries.
+- **The Wizard's Laboratory**: experiments, spell mishaps and unstable apparatus.
+- **Random locations, monuments, factions and settlements**: generated situation and place.
+
 ## Category 6: Timers, Countdowns & Clocks
+
+### Generic reusable timers
+
+- **Ten Minutes to Disaster**: a themed, clear ten-minute countdown (first slate).
+- **The Doomsday Clock**: escalating announcements at selected intervals.
+- **Countdown Series**: clean 2, 3, 5, 10, 15, 20, 30-minute tracks, with and without periodic spoken checkpoints.
+- **Turn / Phase Bell**: recurring turn-end and round-end signals.
+- **Initiative / Action Clock**: predefined intervals, clear remaining-time calls.
 
 ## Category 7: Game-Specific Audio Controllers
 
@@ -82,49 +114,12 @@ These are **not yet published**. No production dates committed. Dice variants be
 - **Nightmare / Atmosfear**: references for a voice that interrupts gameplay, not a promise of replacement.
 - **Stop Thief!**: sound clues are rules-bearing; reference for potential original clues, not an unlicensed recreation.
 
-### Generic reusable timers
-
-- **Ten Minutes to Disaster**: a themed, clear ten-minute countdown (first slate).
-- **The Doomsday Clock**: escalating announcements at selected intervals.
-- **Countdown Series**: clean 2, 3, 5, 10, 15, 20, 30-minute tracks, with and without periodic spoken checkpoints.
-- **Turn / Phase Bell**: recurring turn-end and round-end signals.
-- **Initiative / Action Clock**: predefined intervals, clear remaining-time calls.
-
-## Category 3: Encounter Streams
-
-- **The Wilderness Oracle / Wilderness Encounters:** eighty original independent scenarios drafted as a first ~30-minute manuscript, no repetition of a smaller list. Printed numbers and titles are **not read** aloud. Entries contain enough setting and decision texture to use by themselves.
-- **Dungeon Encounters, Road Encounters, Urban Encounters, Social Encounters:** related all-unique collections.
-
-## Category 4: Oracles & Decision Aids
-
-
-- **The Wilderness Oracle** is classified as an encounter stream (Category 3), rather than a general-purpose oracle.
-- **Dungeon Discoveries**: new rooms, traps, objects, events, structural anomalies.
-- **The Tavern**: patrons, rumors, events, overheard fragments.
-- **NPC Generator**: occupation, motivation, mannerism, relationships, eccentricities.
-- **Yes / No Oracle**: yes/no with optionally skewed probabilities and compound outcomes such as yes-and/no-but.
-- **Weather Oracle**: setting, climate, biome, season, and escalating conditions.
-- **Rumors & Secrets**: independent story hooks, revelations, misleading leads.
-- **Treasure Beyond Gold**: curious possessions and objects, strange materials, inscriptions.
-- **The Wizard's Laboratory**: spell mishaps, consequences, sounds, unstable experiments.
-- **The Dungeon Speaks**: encounter audio heard *in-world*, rather than dry narration.
-- **Random locations / monuments / factions / motives**: future additions.
-
-### Distinctness requirement for long generator episodes
-
-A short dice episode repeats values by design. A thirty-minute encounter stream should *not* repeat the same printed table. Every segment should offer a different original encounter within a given episode. Define seeds and repeat policy if more than one installment exists, and track duplication/near-duplication across releases.
-
-## Category 5: Characters, Locations & Worlds
-
-- **NPC Generator, Weather Oracle, Rumors & Secrets, Treasure Beyond Gold**, towns, factions, locations and story-world building prompts cross-listed from the prior list.
-
 ## Category 8: Atmospheres & Environments
 
 - Original forests, taverns, caverns, machinery, distant battle, weather, urban nights and room tone; optional pure ambience, no intrusive bed under spoken dice.
 
 ## Category 9: Audio Clues & In-World Props
 
-- **Ambient environments**: original forests, taverns, caverns, machinery, weather, battlefield distance, city nights.
 - **Audio-only encounters**: footsteps, voices, creature calls, and noises communicate the encounter directly, perhaps with separate GM descriptions.
 - **Audio clues / invisible movement**: inspired by games using sound as information, but with original game-agnostic clues.
 - **In-world letters, warnings, transmissions, recordings, and magical communications**, including a recurring wizard persona when appropriate.
