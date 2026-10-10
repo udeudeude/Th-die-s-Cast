@@ -2,6 +2,14 @@
 
 _Working design, 2026-10-09. Do not implement unspecified game mechanics without user review._
 
+## Canonical show-title pronunciation
+
+Written/show/feed brand: **Th’die’s Cast**. Approved Lewis voice input: **“The die's cast.”**, chosen as pronunciation audition number 02. These strings are deliberately different; never supply the stylized title to the TTS engine. Spoken wizard character name is **unselected** pending folklore/medieval-oriented naming review.
+
+## Secret end-of-episode coda
+
+Optional, distinctive spoken Easter eggs may appear only after all functional game results. For the D20 prototype, the last of its 360 genuine 1–20 results finishes the 30-minute roll portion. After a silent buffer, Lewis says **“Twenty-one.”**, pauses, and corrects himself: “No. Not really. That would be ridiculous. This is the end of the recording. You shouldn't be here anyway.” The 21 is *intentionally invalid*, not a new result or a change to the D20 distribution. Manifest fields must report the last valid-roll timestamp and epilogue boundaries separately.
+
 ## Narrator
 
 Use Kokoro `bm_lewis`, chosen over `bm_fable`, `bm_george`, and processed Fable following actual auditions. Keep voice/model identifier, speed, script, pauses, effects, and output normalization in versioned production metadata. Do not assume the Living Patterns `bm_george` speed 0.88 applies to Lewis here. Save reference auditions; they are experiments, not canonical episodes.
