@@ -1,0 +1,69 @@
+{
+  "voice": "bm_lewis",
+  "speed": 0.94,
+  "description": "Title pronunciation audition; not an approved brand lockup",
+  "candidates": [
+    {
+      "number": 1,
+      "tts_text": "The die is cast.",
+      "file": "01-the-die-is-cast.mp3",
+      "duration_sec_approx": 3.25
+    },
+    {
+      "number": 2,
+      "tts_text": "The die's cast.",
+      "file": "02-the-dies-cast.mp3",
+      "duration_sec_approx": 3.025
+    },
+    {
+      "number": 3,
+      "tts_text": "Th' die's cast.",
+      "file": "03-th-dies-cast.mp3",
+      "duration_sec_approx": 3.325
+    },
+    {
+      "number": 4,
+      "tts_text": "Thud eyes cast.",
+      "file": "04-thud-eyes-cast.mp3",
+      "duration_sec_approx": 3.2
+    },
+    {
+      "number": 5,
+      "tts_text": "Tuh dize cast.",
+      "file": "05-tuh-dize-cast.mp3",
+      "duration_sec_approx": 3.1
+    },
+    {
+      "number": 6,
+      "tts_text": "Thuh die's cast.",
+      "file": "06-thuh-dies-cast.mp3",
+      "duration_sec_approx": 3.225
+    },
+    {
+      "number": 7,
+      "tts_text": "The die, is cast.",
+      "file": "07-the-die-is-comma-cast.mp3",
+      "duration_sec_approx": 3.225
+    },
+    {
+      "number": 8,
+      "tts_text": "The'die's cast.",
+      "file": "08-the-dies-unspaced.mp3",
+      "duration_sec_approx": 2.875
+    },
+    {
+      "number": 9,
+      "tts_text": "Tha die's cast.",
+      "file": "09-tha-dies-cast.mp3",
+      "duration_sec_approx": 3.125
+    },
+    {
+      "number": 10,
+      "tts_text": "Th'die's Cast.",
+      "file": "10-stylized-written-title.mp3",
+      "duration_sec_approx": 3.3
+    }
+  ],
+  "compilation_file": "00-all-ten-title-pronunciations.mp3",
+  "compilation_duration_sec_approx": 75.2
+}
