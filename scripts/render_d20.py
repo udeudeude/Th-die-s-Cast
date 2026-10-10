@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the first D20 podcast audition with Kokoro bm_lewis.
 
-Thirty minutes of five-second sample-aligned slots:
+Pilot only; not published to RSS.\nThirty minutes of five-second sample-aligned slots:
 18 independently shuffled blocks of all 20 face values. An introductory
 voiceover precedes the results. The introduction is *not* included in the
 thirty-minute dice portion. This is a pilot, not an approved production lock.
