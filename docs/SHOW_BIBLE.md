@@ -9,18 +9,24 @@ An audio-first utility podcast for tabletop games. Rather than regular conversat
 ## Voice and attitude
 
 - Narrator **chosen**: Kokoro `bm_lewis` (British male). Base narrator for game instructions, numbers, oracles, and utility episodes. No default processing/speed locked yet.
-- **TTS pronunciation audition in progress:** The printed/show/feed title remains **Th’die’s Cast**. The proper spoken rendering has **not yet been selected**. A first D20 re-render uses “The die is cast” provisionally, and ten Lewis variants have been synthesized for listening on the `title-pronunciation-auditions` branch. Once chosen, store the definitive TTS text independently from the printed brand.
+- **Approved spoken title:** The written/show/feed title remains **Th’die’s Cast**, but Lewis must pronounce it as **“The die's cast.”** The user selected pronunciation **02** after auditioning ten actual Kokoro `bm_lewis` takes. Preserve the spoken form separately in all scripts and audio-production manifests. [Title auditions](https://udeudeude.github.io/title-auditions/).
 - A wizardly host persona is desirable, especially for the ultra-leisurely editions, but keep ordinary tools brief and crisp.
 - The wizard is wry and sometimes verbose by design in the ultra-leisurely format; dramatic performance must never obscure the reported outcome.
 - Existing test samples: [wizard audition page](https://udeudeude.github.io/wizard-auditions/). Choice of voice does not mean the selected audition performance is the definitive final processing recipe.
-- **Character name not yet selected.** The technical voice stays Kokoro `bm_lewis`. Proposed spoken identities (in preference order): Magister Oddswell, Professor Widdershins, Orimander Vale, Theophilus Quill, Archibald Hex, Magister Vellum. Don't commit a public identity or render that name into episodes until approved.
+- **Character name not yet selected.** The technical voice stays Kokoro `bm_lewis`. The first names (Magister Oddswell, Professor Widdershins, Orimander Vale, Theophilus Quill, Archibald Hex, Magister Vellum) were **rejected as too contemporary/Harry Potter-esque**. New naming brief: a plausible figure from Malory's medieval romance, Tolkien's early-medieval register, or Grimms' folk tales; folkloric gravity, human texture, no explicit dice/odds/hex pun or school-of-magic title. Exploratory candidates: **Old Orm; Aldred of the Mere; Brother Ambrose; Bertram of the Thorn; Master Aldhelm; the Old Man of the Ash Tree**. All are proposals, not selected identities; do not claim they're characters in those works.
 
 ## Hidden end-of-episode epilogues
 
 **Approved concept:** every completed episode may contain a brief, distinctive line spoken by Lewis's wizard persona at its *very end*, as a reward for anyone who listens through, although random-access users have no normal reason to do so. Some lines should be wry, others genuinely reflective. Prefer a short silence after the last functional segment, followed by one self-contained epilogue; do not insert hidden lines inside functional dice/timer intervals.
 
-**First D20 candidate (awaiting wording approval):**
-> Well. Three hundred and sixty answers, and you've heard every one. Yet somehow, the question is still yours.
+**D20 pilot epilogue chosen for audition (wording still adjustable):**
+> Twenty-one.
+>
+> [Pause.]
+>
+> No. Not really. That would be ridiculous. This is the end of the recording. You shouldn't be here anyway.
+
+This came from the user's example of the wizard pretending to announce a physically impossible **21** for a D20, then pointing out that nobody normally hears the end of a random-seek utility. Keep the impossible number and the understated fourth-wall break; avoid padding it with a long lecture. The earlier reflective three-hundred-and-sixty-answers line remains a potential epilogue for **another** episode, not this one.
 
 Technical considerations:
 - The dice portion still consists of 18 fully shuffled sets of 20 = 360 rolls at five-second slots. The epilogue comes only **after** the 30-minute dice portion, not in a roll slot.
