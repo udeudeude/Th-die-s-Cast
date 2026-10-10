@@ -1,0 +1,64 @@
+name: Render Brother name auditions
+on:
+  push:
+    branches: [brother-name-auditions]
+    paths:
+      - scripts/render_brother_names.py
+      - .github/workflows/brother-auditions.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  names:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: brother-name-auditions
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-d20.txt
+      - name: Install speech and MP3 dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-d20.txt
+      - name: Render Brother-name audition clips
+        run: python scripts/render_brother_names.py
+      - name: Check outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          folder = Path("auditions/brother-names")
+          data = json.loads((folder / "manifest.json").read_text())
+          assert len(data["candidates"]) == 10
+          assert (folder / data["compilation_filename"]).stat().st_size > 10000
+          assert all((folder / row["filename"]).stat().st_size > 2000 for row in data["candidates"])
+          print("Verified 10 candidate MP3s and the combined audition")
+          PY
+          ffprobe -v error -show_entries format=duration,size -of json auditions/brother-names/00-All-Ten-Brothers-Lewis.mp3
+      - name: Commit audition audio to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auditions/brother-names/
+          if ! git diff --cached --quiet; then
+            git commit -m "Render ten Lewis Brother-name audio auditions"
+            git pull --rebase origin brother-name-auditions
+            git push origin HEAD:brother-name-auditions
+          fi
+      - name: Provide a downloadable audition artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Brother-name-voice-auditions
+          path: auditions/brother-names
