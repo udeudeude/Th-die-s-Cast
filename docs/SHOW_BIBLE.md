@@ -9,7 +9,7 @@ An audio-first utility podcast for tabletop games. Rather than regular conversat
 ## Voice and attitude
 
 - Narrator **chosen**: Kokoro `bm_lewis` (British male). Base narrator for game instructions, numbers, oracles, and utility episodes. No default processing/speed locked yet.
-- **TTS spoken-title rule:** The printed/show/feed title remains **Th’die’s Cast**. Narration scripts must expand it to **“The die is cast”** to prevent phonetic mangling by speech synthesis. Keep this separate from display metadata; never use the stylized form in a TTS input prompt unless it has been verified to sound right.
+- **TTS pronunciation audition in progress:** The printed/show/feed title remains **Th’die’s Cast**. The proper spoken rendering has **not yet been selected**. A first D20 re-render uses “The die is cast” provisionally, and ten Lewis variants have been synthesized for listening on the `title-pronunciation-auditions` branch. Once chosen, store the definitive TTS text independently from the printed brand.
 - A wizardly host persona is desirable, especially for the ultra-leisurely editions, but keep ordinary tools brief and crisp.
 - The wizard is wry and sometimes verbose by design in the ultra-leisurely format; dramatic performance must never obscure the reported outcome.
 - Existing test samples: [wizard audition page](https://udeudeude.github.io/wizard-auditions/). Choice of voice does not mean the selected audition performance is the definitive final processing recipe.
