@@ -1,0 +1,73 @@
+name: Render Lewis D20 pilot
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render_d20.py
+      - requirements-d20.txt
+      - .github/workflows/render-d20.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-d20.txt
+      - name: Prepare audio system
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng
+      - name: Install TTS packages
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-d20.txt
+      - name: Render 30-minute D20 podcast audition
+        run: python scripts/render_d20.py
+      - name: Verify MP3 runtime and encoded size
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s audio/Thdies-Cast-D20-pilot-lewis.mp3
+          test -s data/d20_pilot_manifest.json
+          ffprobe -v error -show_entries format=duration,size,bit_rate -of json audio/Thdies-Cast-D20-pilot-lewis.mp3
+          python - <<'PY'
+          import json,subprocess
+          p='audio/Thdies-Cast-D20-pilot-lewis.mp3'
+          values=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','json',p]))['format']
+          runtime=float(values['duration'])
+          assert 1800 < runtime < 1860, f'Unexpected duration: {runtime}s'
+          print('Duration validated:',runtime)
+          PY
+      - name: Commit generated recording and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/Thdies-Cast-D20-pilot-lewis.mp3 data/d20_pilot_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Render 30-minute Lewis D20 pilot and verification manifest"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Lewis-D20-podcast-pilot
+          path: |
+            audio/Thdies-Cast-D20-pilot-lewis.mp3
+            data/d20_pilot_manifest.json
+          if-no-files-found: warn
