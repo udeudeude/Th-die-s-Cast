@@ -9,10 +9,10 @@ Use Kokoro `bm_lewis`, chosen over `bm_fable`, `bm_george`, and processed Fable 
 ### Preferred system layout
 
 - Canonical machine-readable manifests: episode ID, category, mode, dice definitions, source/script chunks, seed (if deterministic), audio asset attribution, revision and production config.
-- Deterministic build tools: generate and validate text, audio chunks, complete MP3, embedded chapters where sensible, feed entries, and a static browser listening page.
+- Deterministic build tools: generate and validate text, audio chunks, complete MP3, embedded chapters where sensible, feed entries, and a feed-accessible static release manifest.
 - Host public assets; produce ordinary podcast RSS enclosures for standard clients.
 - Maintain checksum/duration manifest; verify feed enclosures, program duration, bitrate and loudness.
-- No server dependency for audio playback. For dynamic modules, consider static hosting plus client-side logic and a tiny subset of cached audio, with no account or analytics required.
+- Podcast-only playback for the project. No companion web app, interactive browser engine, or required separate installer. Render preset variants as their own podcast episodes.
 
 ## Seek-and-hear interface
 
@@ -56,7 +56,9 @@ Define a ruleset with `sides`, `explode_on`, `recursive`, `sum_policy`, `maximum
 
 This distribution is unbounded, though extraordinarily long runs are rare; a fixed-length program requires explicit handling of rare overlong announcements. Do **not** impose an unstated cap and present the results as faithful to an uncapped ruleset.
 
-**Possible solutions for overlong chains:** size slots to a high percentile, allow exceptionally long slots only if we compensate time weighting in selection (hard), or use a specific declared finite-chain game variant; optionally a "continue rolling" instruction if appropriate to a game. Choose after discussing user intent.
+**Preferred revised insight:** assign fixed-length slots to each individual die **draw**, rather than to an entire explosion chain. A listener seeks to any random draw and listens onward. Every time a maximum face appears, include the next independently drawn face; stop with the first nonmaximum. Thus chains can occupy arbitrarily many fixed slots and remain unbiased in principle, with no cap. **This requires independent draws, not full shuffled blocks:** a single six per D6 permutation largely prevents consecutive sixes. Players perform any sum themselves, unless a separate format announces totals, and the next roll starts after a nonmaximum result. The introduction must explicitly teach this rule.
+
+**Other candidate formats:** single-slot precomputed chain with a declared cap (changes probability); variable-duration segments with time-weighting correction (hard to make seek-fair). Do not choose these without user approval.
 
 A common alternative only rolls an extra die once, without recursive explosions; this is a *different mechanic*, not interchangeable with the recursive one. "Compounding" is used inconsistently across games and should not be used as a synonym for "one explosion only" without naming a particular game's rule.
 
@@ -78,27 +80,28 @@ Decide with user whether each snippet contains an outcome alone, a short GM prom
 - Use original sound design, not redistributed game audio. Support a no-ambience / cues-only version and themed versions.
 - Track sample-exact deadlines. If content mentions time remaining, bake it into the timing tests.
 - No adverts, crossfades, time-stretching or silence skipping. Playback at 1× only.
-- For timers requiring interactivity or random mission events, use the companion instead of implying a pre-recorded file can handle it.
+- For timers requiring interactivity or randomized mission events, offer verified fixed presets where possible; otherwise explicitly mark them unsuitable for static podcast delivery.
 
-## One Night modular narration: reduce combinatorial explosion
+## One Night podcast-only narration: limit combinatorial explosion
 
-An independent role clip library and scheduler can construct a night with configured roles without rendering a separate MP3 for each role combination:
+A fixed-audio moderator cannot respond to role selections at playback time. **Do not plan a web app.** Podcast-only approaches worth testing:
 
-1. User selects game/expansion, player count, and available roles.
-2. Rules engine validates setup and ordered wake phases.
-3. Web client plays a pre-recorded intro, only the selected role modules in sequence, required pauses, and closing; then a configurable day timer.
-4. Precache the required small assets for optional offline play and make any asset download sizes explicit.
-5. Publish several common configuration presets as podcast episodes for users who want completely app-less playback.
+1. **Popular setup editions:** a limited set of complete fixed night narrations for common role sets. Simple to use; can generate many episodes.
+2. **Universal night:** include all roles in canonical order, with appropriately timed action windows. Players ignore nonexistent roles. Determine whether conditional instructions, role information leakage or wasted time make this unworkable for certain games.
+3. **Universal by expansion:** a separate complete moderator recording for each supported edition or expansion, potentially impractical.
+4. **Role sequences as individual episodes:** only for advance manual preparation; automatic gapless transitions in podcast players are *not guaranteed* and cannot be assumed to meet exact timing.
+
+**If no fixed-audio approach preserves the rules and user experience, leave the game unsupported rather than building a companion web app.**
 
 For base One Night, this is plausible; some expansions (especially Alien) involve randomized instructions and actual on-screen choices, so a basic modular clip list is insufficient. Implement conditional logic only after confirming official behavior; consider *not* supporting variants where input is necessary.
 
-This is a **hybrid utility**, not a commitment to reimplement the official app. Bezier's official page already links a browser version, which should be assessed before duplicating a working solution.
+This is a **podcast-only utility**. Bezier's official page links to https://onenightwerewolf.com/ ; research it only as an external precedent, not as an implementation dependency.
 
 ## Delivery and size
 
 - Encode spoken mono MP3s at evaluated bitrates such as 48 or 64 kbps; test on iPhone speaker and headphones for intelligibility. At 30 min: ~10.8 MB at 48 kbps, ~14.4 MB at 64 kbps (decimal estimate, excluding metadata).
 - Mixed soundscapes and layered music may need stereo and more bitrate; don't sacrifice function for a nominal small size.
-- Website link should launch quickly and allow play in Safari; podcast RSS remains canonical for noninteractive episodes.
+- Podcast RSS and podcast apps are the intended delivery system. Any temporary external audition site is a production aid, not a published gameplay companion.
 - Explain selective downloading, podcast app's auto-download settings, and network/cache considerations to users.
 
 ## Quality assurance before publishing
