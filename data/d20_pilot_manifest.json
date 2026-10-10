@@ -1,6 +1,6 @@
 {
   "series": "Th\u2019die\u2019s Cast",
-  "spoken_series_name": "The die is cast",
+  "spoken_series_name": "The die's cast.",
   "episode": "D20 \u2014 Pilot",
   "status": "audition, not released",
   "voice": "bm_lewis",
@@ -11,8 +11,13 @@
   "die_sides": 20,
   "slot_seconds": 5,
   "slot_onset_seconds": 0.52,
-  "intro_seconds": 21.0,
-  "total_seconds_approx": 1821.0,
+  "intro_seconds": 20.875,
+  "rolls_end_seconds": 1820.875,
+  "epilogue_start_seconds": 1826.875,
+  "epilogue_text": "Twenty-one. [pause] No. Not really. That would be ridiculous. This is the end of the recording. You shouldn't be here anyway.",
+  "epilogue_is_a_roll": false,
+  "total_rolls": 360,
+  "total_seconds_approx": 1839.75,
   "randomization": "independent new shuffled permutations, each face exactly once per block",
   "permutations": [
     [
@@ -412,5 +417,5 @@
       14
     ]
   ],
-  "notes": "Approximately 30 minutes of dice plus opening instructions. Each slot is 5.0 seconds, including variable silence. Seek randomly, discard clipped numbers, use next complete number. This is not an independent-roll stream."
+  "notes": "Approximately 30 minutes of dice plus opening instructions. Each slot is 5.0 seconds, including variable silence. Seek randomly, discard clipped numbers, use next complete number. This is not an independent-roll stream. The fake twenty-one after all 360 valid rolls is a hidden joke, not a roll."
 }
