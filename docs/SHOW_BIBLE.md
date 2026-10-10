@@ -1,0 +1,76 @@
+# Th’die’s Cast — show bible
+
+_Last revised: 2026-10-09. Status: working plan._
+
+## Mission
+
+An audio-first utility podcast for tabletop games. Rather than regular conversation, its episodes *do things*: produce random values when the listener seeks, regulate real-time play, serve up unique procedural prompts, or function as game props. The show should be a modest, shareable tool that is already in a familiar podcast app.
+
+## Voice and attitude
+
+- Narrator **chosen**: Kokoro `bm_lewis` (British male). Base narrator for game instructions, numbers, oracles, and utility episodes. No default processing/speed locked yet.
+- A wizardly host persona is desirable, especially for the ultra-leisurely editions, but keep ordinary tools brief and crisp.
+- The wizard is wry and sometimes verbose by design in the ultra-leisurely format; dramatic performance must never obscure the reported outcome.
+- Existing test samples: [wizard audition page](https://udeudeude.github.io/wizard-auditions/). Choice of voice does not mean the selected audition performance is the definitive final processing recipe.
+
+## Product rationale: fewer downloads and less storage
+
+Official companion applications can be surprisingly large, and a player may not want to keep an app installed for a game played occasionally. Downloading it at game night may be inconvenient or costly on a limited cellular plan. A standard podcast can be listened to in an already-installed app, subscribed to in advance, selectively downloaded when convenient, and shared as a simple link.
+
+This is an **economy of installation, storage, and network data**, not a promise of zero data: streaming requires connectivity; many podcast clients auto-download; long MP3s still take storage. Prioritize compact mono speech, per-episode files, clear download sizes, and optional lightweight web access. A baseline comparison: a 30-minute mono MP3 at 48 kbps is about 10.8 MB (decimal); 64 kbps is about 14.4 MB. Assess speech quality at those bitrates rather than accepting numbers blindly.
+
+One empirical example, subject to change: Bezier's iOS One Night companion app listing reported 148.5 MB as of 2026-10-09; verify before using in public marketing: https://apps.apple.com/us/app/one-night/id728175611 .
+
+## The four primary categories
+
+1. **Dice & Randomizers** — D4/D6/D8/D10/D12/D20/D100, combinations, exploding dice, special dice, cards, directions, randomized ordering, voices reading numbers.
+2. **Clocks & Game Soundtracks** — audible countdowns, cue-based time limits, emergency clocks, game-specific or generic phase callers, automated mission announcements.
+3. **Oracles & Generators** — extensive unique encounter streams, NPCs, strange discoveries, yes/no decisions, rumors, weather, narrative prompts, procedural tables.
+4. **Soundscapes & Audio Props** — immersive room tone, environmental sounds, diegetic clues, audio-only encounters, in-world documents and voices.
+
+Keep the **original-audio-native-games** concept as a separate sister project, not a fifth category of this utility show.
+
+## Episode families and modes
+
+- **Quick dice:** proposed short result slots and minimal speech, exact interval TBD by user.
+- **Leisurely dice:** more room for selection and use at the table, interval TBD.
+- **Ultra-leisurely dice:** substantial, varied characterful commentary, e.g., a 19 is splendid but not perfect; a 1 meets with comic disappointment. Crucially, outcome spoken audibly; variable-length remarks fit fixed total time slots to avoid time-weighted outcome bias when seeking.
+- **Table format:** short description or result, each occupying an independently seekable slot or chapter; encounter streams prefer *each encounter unique within the episode*, unlike repeatedly reading a finite list.
+- **Game timer:** fixed time and function first; original audio designs, optional narrative variants.
+- **Hybrid utility:** standardized podcast presets plus dynamic assembly in a tiny browser companion if configuration cannot fit a fixed recording.
+
+## Core user experience
+
+Listeners can start an episode and follow its instructions, or seek to an arbitrary location and use the **next fully spoken outcome after playback resumes**. It should not require visual cues or the listener counting timestamps. A compact opening disclaimer/instruction is part of the content, but avoid making it impossible to use by immediate seeking.
+
+Podcast clients have varying seek precision, playback speed, silence trimming, and crossfade behavior. Test at least Apple Podcasts and an iPhone web audio element before publishing. No automatically inserted midrolls, transitions, or narration during timed cues.
+
+## Decisions already made
+
+- Use Lewis as narrator.
+- Keep all previously discussed dice and randomizer types in planning catalog.
+- Add quick, leisurely, **ultra-leisurely** modes.
+- User will specify alterations to some dice mechanics before production.
+- Explore exploding D6 and D20 and dice pools without falsely uniform distributions.
+- Prefer a 30-minute stream of **different** wilderness encounters to recycling a small table.
+- Include both a lightweight podcast route and, for difficult games, the option of a very small modular web player.
+- Investigate a D20 made of **real**, recognizably different famous-voice samples if clips can be cleared; do not pretend short snippets are automatically cleared.
+- Provisional first five releases: D20, 2D6, D100, Wilderness Oracle, Ten Minutes to Disaster.
+- Original games intended to be played with podcast audio are an adjacent **sister project**.
+
+## Still open (ask when developing each format, not all at once)
+
+- Exact durations, opening instructions, repeat policy, seed protocol, slot intervals, sound cues, and distribution/variant rules for each die or dice combination.
+- What a listener should hear for individual dice vs totals; how to handle percentile zero, unusual notation, criticals, and bespoke rule sets.
+- The tone library and pacing for ultra-leisurely outcomes.
+- Whether any game-specific replacement recordings are worth making once licenses/game mechanics are confirmed.
+- Ambience credits, RSS/feed behavior, publishing license, companion feature scope, and naming conventions.
+
+## Anti-goals
+
+- An elaborate, data-heavy app replacing the need for a simple MP3.
+- Long theatrical introductions in quick utility episodes.
+- Uniformly selecting 2D6 totals instead of rolling two independent D6s.
+- Repeated 20-item encounter tables masquerading as an original 30-minute catalog.
+- Prematurely hard-coding unapproved dice mechanics.
+- Repackaging copyrighted game soundtracks, licensed ambience, or celebrity recordings as though they were public domain.
