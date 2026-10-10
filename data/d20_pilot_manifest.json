@@ -1,5 +1,6 @@
 {
-  "series": "Th'die's Cast",
+  "series": "Th\u2019die\u2019s Cast",
+  "spoken_series_name": "The die is cast",
   "episode": "D20 \u2014 Pilot",
   "status": "audition, not released",
   "voice": "bm_lewis",
@@ -10,8 +11,8 @@
   "die_sides": 20,
   "slot_seconds": 5,
   "slot_onset_seconds": 0.52,
-  "intro_seconds": 21.325,
-  "total_seconds_approx": 1821.325,
+  "intro_seconds": 21.0,
+  "total_seconds_approx": 1821.0,
   "randomization": "independent new shuffled permutations, each face exactly once per block",
   "permutations": [
     [
