@@ -6,6 +6,10 @@ on:
       - scripts/render_d20.py
       - requirements-d20.txt
       - .github/workflows/render-d20.yml
+  pull_request:
+    branches: [main]
+    paths:
+      - docs/D20_RENDER_PROBE.md
   workflow_dispatch:
 
 permissions:
