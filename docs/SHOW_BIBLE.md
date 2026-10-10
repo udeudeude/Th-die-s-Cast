@@ -13,12 +13,29 @@ An audio-first utility podcast for tabletop games. Rather than regular conversat
 - A wizardly host persona is desirable, especially for the ultra-leisurely editions, but keep ordinary tools brief and crisp.
 - The wizard is wry and sometimes verbose by design in the ultra-leisurely format; dramatic performance must never obscure the reported outcome.
 - Existing test samples: [wizard audition page](https://udeudeude.github.io/wizard-auditions/). Choice of voice does not mean the selected audition performance is the definitive final processing recipe.
+- **Character name not yet selected.** The technical voice stays Kokoro `bm_lewis`. Proposed spoken identities (in preference order): Magister Oddswell, Professor Widdershins, Orimander Vale, Theophilus Quill, Archibald Hex, Magister Vellum. Don't commit a public identity or render that name into episodes until approved.
+
+## Hidden end-of-episode epilogues
+
+**Approved concept:** every completed episode may contain a brief, distinctive line spoken by Lewis's wizard persona at its *very end*, as a reward for anyone who listens through, although random-access users have no normal reason to do so. Some lines should be wry, others genuinely reflective. Prefer a short silence after the last functional segment, followed by one self-contained epilogue; do not insert hidden lines inside functional dice/timer intervals.
+
+**First D20 candidate (awaiting wording approval):**
+> Well. Three hundred and sixty answers, and you've heard every one. Yet somehow, the question is still yours.
+
+Technical considerations:
+- The dice portion still consists of 18 fully shuffled sets of 20 = 360 rolls at five-second slots. The epilogue comes only **after** the 30-minute dice portion, not in a roll slot.
+- Put a small, deliberate silent buffer before the epilogue and a short fade/padding afterward. The final line is **not a die result**. End-of-episode random seeking can land in this non-roll tail; consider clear episode end handling and test it.
+- Include epilogue only when compatible with the episode's function. Countdown timers must maintain exact completion cues; additional narration afterward must not mask the time-expired signal.
+- Keep end-of-episode lines different for each release; no repeated boilerplate.
+- Do not reveal the secret line in public-facing show notes unless specifically wanted; save source text in version control.
+- The phrase above and candidate wizard names are editorial suggestions, not locked decisions.
+
 
 ## Product rationale: fewer downloads and less storage
 
 Official companion applications can be surprisingly large, and a player may not want to keep an app installed for a game played occasionally. Downloading it at game night may be inconvenient or costly on a limited cellular plan. A standard podcast can be listened to in an already-installed app, subscribed to in advance, selectively downloaded when convenient, and shared as a simple link.
 
-This is an **economy of installation, storage, and network data**, not a promise of zero data: streaming requires connectivity; many podcast clients auto-download; long MP3s still take storage. Prioritize compact mono speech, per-episode files, clear download sizes, and optional lightweight web access. A baseline comparison: a 30-minute mono MP3 at 48 kbps is about 10.8 MB (decimal); 64 kbps is about 14.4 MB. Assess speech quality at those bitrates rather than accepting numbers blindly.
+This is an **economy of installation, storage, and network data**, not a promise of zero data: streaming requires connectivity; many podcast clients auto-download; long MP3s still take storage. Prioritize compact mono speech, per-episode files, clear download sizes, without requiring a specialized companion app. A baseline comparison: a 30-minute mono MP3 at 48 kbps is about 10.8 MB (decimal); 64 kbps is about 14.4 MB. Assess speech quality at those bitrates rather than accepting numbers blindly.
 
 One empirical example, subject to change: Bezier's iOS One Night companion app listing reported 148.5 MB as of 2026-10-09; verify before using in public marketing: https://apps.apple.com/us/app/one-night/id728175611 .
 
@@ -71,7 +88,7 @@ Podcast clients have varying seek precision, playback speed, silence trimming, a
 - What a listener should hear for individual dice vs totals; how to handle percentile zero, unusual notation, criticals, and bespoke rule sets.
 - The tone library and pacing for ultra-leisurely outcomes.
 - Whether any game-specific replacement recordings are worth making once licenses/game mechanics are confirmed.
-- Ambience credits, RSS/feed behavior, publishing license, companion feature scope, and naming conventions.
+- Ambience credits, RSS/feed behavior, publishing license, wizard identity, and naming conventions.
 
 ## Anti-goals
 
