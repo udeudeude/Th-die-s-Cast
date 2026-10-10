@@ -1,0 +1,91 @@
+{
+  "project": "Th’die’s Cast",
+  "voice": "bm_lewis",
+  "speed": 0.94,
+  "spoken_podcast_title": "The die's cast.",
+  "status": "name auditions, no winner selected",
+  "candidates": [
+    {
+      "number": 1,
+      "name": "Brother Godric",
+      "script_one": "Greetings. I'm Brother Godric. Welcome to the die's cast.",
+      "script_two": "I'm Brother Godric. Thank you for joining the die's cast.",
+      "filename": "01-Brother-Godric.mp3",
+      "duration_seconds": 11.525
+    },
+    {
+      "number": 2,
+      "name": "Brother Blaise",
+      "script_one": "Greetings. I'm Brother Blaise. Welcome to the die's cast.",
+      "script_two": "I'm Brother Blaise. Thank you for joining the die's cast.",
+      "filename": "02-Brother-Blaise.mp3",
+      "duration_seconds": 11.35
+    },
+    {
+      "number": 3,
+      "name": "Brother Oswin",
+      "script_one": "Greetings. I'm Brother Oswin. Welcome to the die's cast.",
+      "script_two": "I'm Brother Oswin. Thank you for joining the die's cast.",
+      "filename": "03-Brother-Oswin.mp3",
+      "duration_seconds": 11.425
+    },
+    {
+      "number": 4,
+      "name": "Brother Aelfric",
+      "script_one": "Greetings. I'm Brother Aelfric. Welcome to the die's cast.",
+      "script_two": "I'm Brother Aelfric. Thank you for joining the die's cast.",
+      "filename": "04-Brother-Aelfric.mp3",
+      "duration_seconds": 11.475
+    },
+    {
+      "number": 5,
+      "name": "Brother Cuthbert",
+      "script_one": "Greetings. I'm Brother Cuthbert. Welcome to the die's cast.",
+      "script_two": "I'm Brother Cuthbert. Thank you for joining the die's cast.",
+      "filename": "05-Brother-Cuthbert.mp3",
+      "duration_seconds": 11.45
+    },
+    {
+      "number": 6,
+      "name": "Brother Dunstan",
+      "script_one": "Greetings. I'm Brother Dunstan. Welcome to the die's cast.",
+      "script_two": "I'm Brother Dunstan. Thank you for joining the die's cast.",
+      "filename": "06-Brother-Dunstan.mp3",
+      "duration_seconds": 11.725
+    },
+    {
+      "number": 7,
+      "name": "Brother Peregrine",
+      "script_one": "Greetings. I'm Brother Peregrine. Welcome to the die's cast.",
+      "script_two": "I'm Brother Peregrine. Thank you for joining the die's cast.",
+      "filename": "07-Brother-Peregrine.mp3",
+      "duration_seconds": 11.5
+    },
+    {
+      "number": 8,
+      "name": "Brother Anselm",
+      "script_one": "Greetings. I'm Brother Anselm. Welcome to the die's cast.",
+      "script_two": "I'm Brother Anselm. Thank you for joining the die's cast.",
+      "filename": "08-Brother-Anselm.mp3",
+      "duration_seconds": 11.475
+    },
+    {
+      "number": 9,
+      "name": "Brother Wulfstan",
+      "script_one": "Greetings. I'm Brother Wulfstan. Welcome to the die's cast.",
+      "script_two": "I'm Brother Wulfstan. Thank you for joining the die's cast.",
+      "filename": "09-Brother-Wulfstan.mp3",
+      "duration_seconds": 11.575
+    },
+    {
+      "number": 10,
+      "name": "Brother Berengar",
+      "script_one": "Greetings. I'm Brother Berengar. Welcome to the die's cast.",
+      "script_two": "I'm Brother Berengar. Thank you for joining the die's cast.",
+      "filename": "10-Brother-Berengar.mp3",
+      "duration_seconds": 11.55
+    }
+  ],
+  "compilation_filename": "00-All-Ten-Brothers-Lewis.mp3",
+  "compilation_duration_seconds": 154.05
+}
