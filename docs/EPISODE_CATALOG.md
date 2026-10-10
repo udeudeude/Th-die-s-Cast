@@ -14,7 +14,7 @@ _Last revised 2026-10-09. Brainstorming catalog, not an approval of exact mechan
 
 These are **not yet published**. No production dates committed. Dice variants below need explicit user review before implementation.
 
-## Category 1: Dice & Randomizers
+## Category 1: Dice & Probability Tools
 
 ### Standard dice
 
@@ -57,7 +57,7 @@ These are **not yet published**. No production dates committed. Dice variants be
    These are **working examples**, not locked final script.
    Make multiple original lines for every outcome to avoid the same wording repeatedly. Use equally long time slots even when comments vary substantially in length, so time-based seeking does not favor long results.
 
-### Other audio randomizers
+## Category 2: Cards & Other Randomizers
 
 - **The Deck**: shuffled 52-card deck, multiple full permutations; potential tarot/other deck editions.
 - **Hexcrawl Compass**: six hex directions, and perhaps 4/8-way compass variants.
@@ -65,7 +65,9 @@ These are **not yet published**. No production dates committed. Dice variants be
 - **The Oracle of Small Decisions**: yes/no, coin toss, cardinal directions, colors, short choices, degrees of success.
 - **Found-voice D20**: one or more real famous people saying the numbers (James Earl Jones, J.R.R. Tolkien, Tom Rosenthal's *157*, Kermit, Sesame Street performers). Research and rights clearance required before publishing, including sound recording, underlying music, character/likeness/publicity considerations. No assumed clearance from a short duration.
 
-## Category 2: Clocks & Game Soundtracks
+## Category 6: Timers, Countdowns & Clocks
+
+## Category 7: Game-Specific Audio Controllers
 
 ### Game-specific candidates
 
@@ -88,9 +90,15 @@ These are **not yet published**. No production dates committed. Dice variants be
 - **Turn / Phase Bell**: recurring turn-end and round-end signals.
 - **Initiative / Action Clock**: predefined intervals, clear remaining-time calls.
 
-## Category 3: Oracles & Generators
+## Category 3: Encounter Streams
 
-- **The Wilderness Oracle / Wilderness Encounters**: thirty-ish minutes of **nonrepeating original encounters**, not a repeated 20-entry list. Set the encounter count based on measured spoken length and usability; develop a varied master list. Include mundane, mysterious, ecological, social, and dangerous encounters.
+- **The Wilderness Oracle / Wilderness Encounters:** eighty original independent scenarios drafted as a first ~30-minute manuscript, no repetition of a smaller list. Printed numbers and titles are **not read** aloud. Entries contain enough setting and decision texture to use by themselves.
+- **Dungeon Encounters, Road Encounters, Urban Encounters, Social Encounters:** related all-unique collections.
+
+## Category 4: Oracles & Decision Aids
+
+
+- **The Wilderness Oracle** is classified as an encounter stream (Category 3), rather than a general-purpose oracle.
 - **Dungeon Discoveries**: new rooms, traps, objects, events, structural anomalies.
 - **The Tavern**: patrons, rumors, events, overheard fragments.
 - **NPC Generator**: occupation, motivation, mannerism, relationships, eccentricities.
@@ -106,7 +114,15 @@ These are **not yet published**. No production dates committed. Dice variants be
 
 A short dice episode repeats values by design. A thirty-minute encounter stream should *not* repeat the same printed table. Every segment should offer a different original encounter within a given episode. Define seeds and repeat policy if more than one installment exists, and track duplication/near-duplication across releases.
 
-## Category 4: Soundscapes & Audio Props
+## Category 5: Characters, Locations & Worlds
+
+- **NPC Generator, Weather Oracle, Rumors & Secrets, Treasure Beyond Gold**, towns, factions, locations and story-world building prompts cross-listed from the prior list.
+
+## Category 8: Atmospheres & Environments
+
+- Original forests, taverns, caverns, machinery, distant battle, weather, urban nights and room tone; optional pure ambience, no intrusive bed under spoken dice.
+
+## Category 9: Audio Clues & In-World Props
 
 - **Ambient environments**: original forests, taverns, caverns, machinery, weather, battlefield distance, city nights.
 - **Audio-only encounters**: footsteps, voices, creature calls, and noises communicate the encounter directly, perhaps with separate GM descriptions.
@@ -114,6 +130,10 @@ A short dice episode repeats values by design. A thirty-minute encounter stream 
 - **In-world letters, warnings, transmissions, recordings, and magical communications**, including a recurring wizard persona when appropriate.
 - **At-the-table atmosphere**: optional quiet room tone, no mandatory bed under dice oracles.
 - **Guest/licensed sound libraries**: investigate Tabletop Audio, D20sounds, official game soundtracks and CC0 Freesound recordings; catalog licensing before reusing anything. Free streaming does not equal redistribution rights.
+
+## Category 10: Archival & Special Editions
+
+- **Found-voice D20**, other verified public-domain/cleared celebrity recordings, eccentric Lewis narrator modes, collage editions. A specific clip's legal reuse and intelligibility must be confirmed before inclusion.
 
 ## Adjacent work, NOT an episode category
 
