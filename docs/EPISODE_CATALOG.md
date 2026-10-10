@@ -32,7 +32,7 @@ These are **not yet published**. No production dates committed. Dice variants be
 
 - **Exploding D6**: if the D6 maximum (6) appears, add it and roll again. A repeated maximum explodes again where the chosen ruleset permits. Example chain: 6+6+3=15; this is a **15**, not a D6 face. More than one definition of exploding dice exists.
 - **Exploding D20**: analogous behavior on 20 **for a ruleset that explicitly calls for it**; it is not a general D20 rule. Example 20+20+14=54.
-- **Compounding / nonrecursive variants**: bonus roll on first maximum only, or alternate bonus and cap mechanics, should be separately named and parameterized.
+- **Alternative explosion variants**: bonus roll on first maximum only (nonrecursive), recursive additional rolls, and other game-specific compounding or cap mechanics should each be named, described and parameterized. 'Compounding' is not by itself a reliable synonym for 'nonrecursive'.
 - **Presentation candidate 1 (preferred for seekability):** one fully resolved outcome per seekable slot, announcing chain and/or sum. Internally generate independently random dice until a non-maximum is rolled.
 - **Presentation candidate 2:** speak the maximum and cue users to continue listening to subsequent rolls; visually simple but seeks and randomization can break sequence semantics.
 - **Presentation candidate 3:** precompute full explosion chains as standalone sequences; concatenate onto the timed track. If a cap on chaining exists for practical runtime, clearly announce rule before ending rather than silently altering probabilities.
