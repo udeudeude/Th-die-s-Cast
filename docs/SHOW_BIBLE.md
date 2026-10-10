@@ -21,14 +21,20 @@ This is an **economy of installation, storage, and network data**, not a promise
 
 One empirical example, subject to change: Bezier's iOS One Night companion app listing reported 148.5 MB as of 2026-10-09; verify before using in public marketing: https://apps.apple.com/us/app/one-night/id728175611 .
 
-## The four primary categories
+## The ten catalog categories
 
-1. **Dice & Randomizers** — D4/D6/D8/D10/D12/D20/D100, combinations, exploding dice, special dice, cards, directions, randomized ordering, voices reading numbers.
-2. **Clocks & Game Soundtracks** — audible countdowns, cue-based time limits, emergency clocks, game-specific or generic phase callers, automated mission announcements.
-3. **Oracles & Generators** — extensive unique encounter streams, NPCs, strange discoveries, yes/no decisions, rumors, weather, narrative prompts, procedural tables.
-4. **Soundscapes & Audio Props** — immersive room tone, environmental sounds, diegetic clues, audio-only encounters, in-world documents and voices.
+1. **Dice & Probability Tools** — standard dice, combinations, pools, explosions, advantage, success counting.
+2. **Cards & Other Randomizers** — decks, tarot, directions, coin flips, shuffled orders, initiative selection.
+3. **Encounter Streams** — thirty-minute sequences of unique wilderness, dungeon, urban and other encounters.
+4. **Oracles & Decision Aids** — yes/no, shades of success, dilemmas, small decisions, prompts.
+5. **Characters, Locations & Worlds** — NPCs, rumors, weather, settlements, objects, factions, strange places.
+6. **Timers, Countdowns & Clocks** — generic clocks, doomsday clocks, round bells, action intervals.
+7. **Game-Specific Audio Controllers** — timed soundtracks and fixed moderator tracks designed for named board games.
+8. **Atmospheres & Environments** — original ambiences, room tone, continuous location soundscapes.
+9. **Audio Clues & In-World Props** — transmissions, overheard voices, invisible movements, environmental evidence.
+10. **Archival & Special Editions** — recognizable public-domain/cleared historic voices, alternate narrators and experimental formats.
 
-Keep the **original-audio-native-games** concept as a separate sister project, not a fifth category of this utility show.
+Keep **original-audio-native games** as a separate sister project, not an episode category.
 
 ## Episode families and modes
 
@@ -37,7 +43,7 @@ Keep the **original-audio-native-games** concept as a separate sister project, n
 - **Ultra-leisurely dice:** substantial, varied characterful commentary, e.g., a 19 is splendid but not perfect; a 1 meets with comic disappointment. Crucially, outcome spoken audibly; variable-length remarks fit fixed total time slots to avoid time-weighted outcome bias when seeking.
 - **Table format:** short description or result, each occupying an independently seekable slot or chapter; encounter streams prefer *each encounter unique within the episode*, unlike repeatedly reading a finite list.
 - **Game timer:** fixed time and function first; original audio designs, optional narrative variants.
-- **Hybrid utility:** standardized podcast presets plus dynamic assembly in a tiny browser companion if configuration cannot fit a fixed recording.
+- **Podcast-only game moderators:** common fixed role-setup episodes, or a universal recording with phases for all supported roles. If the format cannot work reliably as fixed audio, defer it.
 
 ## Core user experience
 
@@ -53,7 +59,7 @@ Podcast clients have varying seek precision, playback speed, silence trimming, a
 - User will specify alterations to some dice mechanics before production.
 - Explore exploding D6 and D20 and dice pools without falsely uniform distributions.
 - Prefer a 30-minute stream of **different** wilderness encounters to recycling a small table.
-- Include both a lightweight podcast route and, for difficult games, the option of a very small modular web player.
+- No Th’die’s Cast companion app or website. Explore common fixed setup episodes, or a universal recording with correctly timed role phases, for configurable games.
 - Investigate a D20 made of **real**, recognizably different famous-voice samples if clips can be cleared; do not pretend short snippets are automatically cleared.
 - Provisional first five releases: D20, 2D6, D100, Wilderness Oracle, Ten Minutes to Disaster.
 - Original games intended to be played with podcast audio are an adjacent **sister project**.
