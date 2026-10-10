@@ -34,7 +34,7 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 
 - **Low installation and data burden.** One-tap podcast listening, no app dependency for ordinary episodes. Offer selective, compact downloads. Streaming itself still consumes data, and some podcast clients auto-download episodes.
 - **Useful at the table.** Timing, audibility, fast recognition, and predictable seeking are more important than filler narration.
-- **Podcast first; web companion where necessary.** Dynamic, role-dependent or interactive games cannot always be replaced by a fixed MP3. Any companion should be tiny and mobile-first.
+- **Podcast only.** All published utilities should operate within an ordinary podcast player, without a companion website or app. For highly configurable games, explore fixed scenario presets and universal recordings rather than software.
 - **Original or cleared recordings.** No unlicensed celebrity clips, copyrighted game audio, or ambience repackaging without permission.
 - **Keep original games separate.** Designing full original games for podcast audio belongs in a sister project, although ideas can inform each other.
 
