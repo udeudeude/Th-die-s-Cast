@@ -6,6 +6,10 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 
 **Narrator:** Kokoro British voice `bm_lewis` (selected). The exact performance style and processing are still to be determined.
 
+**Spoken show title:** “The die's cast.” (audition take 02). **Wizard's personal name:** TBD; folkloric, medieval rather than contemporary fantasy.
+
+**Hidden D20 pilot epilogue:** A deliberately impossible “twenty-one” after all 360 valid rolls, followed by a brief fourth-wall-breaking correction. It is not another die result.
+
 ## Planning documents
 
 - [Show identity, categories, and boundaries](docs/SHOW_BIBLE.md)
@@ -35,7 +39,7 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 
 ## D20 pilot: listen and review
 
-- [Play the 30-minute, 21-second D20 MP3 (Lewis)](https://raw.githubusercontent.com/udeudeude/Th-die-s-Cast/main/audio/Thdies-Cast-D20-pilot-lewis.mp3)
+- [Play the D20 pilot MP3 (Lewis; includes secret epilogue)](https://raw.githubusercontent.com/udeudeude/Th-die-s-Cast/main/audio/Thdies-Cast-D20-pilot-lewis.mp3)
 - [D20 generation manifest and shuffle order](data/d20_pilot_manifest.json)
 - Format: 360 rolls, five-second fixed slots, eighteen shuffled permutations of 1–20; spoken instructions at the beginning. **Pilot only, not a published RSS episode.**
 
