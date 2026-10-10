@@ -67,7 +67,7 @@ This is **reference research**, not an assertion of permission to re-publish gam
 | Flatline | Real-time timed rounds | Medical timer; confirm phases |
 | Project: ELITE | Short timed action windows | Timed phase alerts |
 | Space Alert | Mission announcements, events and timing | Fixed scenario variants or companion, not naive infinite loop |
-| One Night Ultimate Werewolf / Daybreak / Vampire / Alien / Super Villains | Role-configured nighttime narration and day timer | Common static podcast presets + modular voice web companion |
+| One Night Ultimate Werewolf / Daybreak / Vampire / Alien / Super Villains | Role-configured nighttime narration and day timer | Common static podcast presets or universal audio |
 | XCOM: The Board Game | Companion app controls time and game events | Research interactivity first |
 | Stop Thief! | Sound clues constitute gameplay information | Inspiration for original sound-deduction assets |
 | Nightmare / Atmosfear | Recorded presenter interrupts and manages game | Creative precedent; investigate rights carefully |
@@ -75,14 +75,16 @@ This is **reference research**, not an assertion of permission to re-publish gam
 ### One Night specifics
 
 Official product page includes links to a **browser app**, narration reference, and all-games wake order:
-https://beziergameshq.shop/products/one-night-ultimate-werewolf
+https://beziergames.com/products/one-night-ultimate-werewolf
+
+Publisher-linked external browser app (research only, **not** planned for Th’die’s Cast): https://onenightwerewolf.com/
 
 Official mobile app (app details and current iOS size):
 https://apps.apple.com/us/app/one-night/id728175611
 
-The Apple listing reported 148.5 MB on 2026-10-09. Do not freeze the figure indefinitely in public copy. The official app supports multiple games/expansions and automates narration depending on roles; a huge family of fixed MP3 variants is not a good primary architecture.
+The Apple listing reported 148.5 MB on 2026-10-09. Do not freeze the figure indefinitely in public copy. The official app supports multiple games/expansions and automates narration depending on roles; large numbers of fixed MP3 variants could be unwieldy, so prioritize a small number of useful presets or a universal moderator track.
 
-The standard base game is a good testbed for modular role clips, but Alien adds event-dependent, sometimes user-interactive behavior. Study the official browser solution before duplicating work. Preserve proper timing and legal compliance when writing new narration; do not copy the app's source audio.
+Base One Night might support a small set of fixed role-setup episodes or a universal moderator recording; Alien has event-dependent, sometimes user-interactive behavior and may not be feasible as podcast-only. The official browser app is an external comparison, never a dependency. Preserve proper timing and legal compliance when writing new narration; do not copy the app's source audio.
 
 ## Publication permissions checklist
 
