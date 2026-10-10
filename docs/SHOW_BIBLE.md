@@ -80,3 +80,7 @@ Podcast clients have varying seek precision, playback speed, silence trimming, a
 - Repeated 20-item encounter tables masquerading as an original 30-minute catalog.
 - Prematurely hard-coding unapproved dice mechanics.
 - Repackaging copyrighted game soundtracks, licensed ambience, or celebrity recordings as though they were public domain.
+
+## Future review protocol: “give me the dice?”
+
+When the user says **“give me the dice?”**, supply a **numbered list** of all suggested dice episodes, with the proposed implementation of each (roll generation, distribution, readout, time spacing, shuffle/independence policy, variants, and specific open questions). Do not assume the list itself authorizes generation; wait for the user's edits and decisions. This phrase is an agreed review trigger, not a demand for current production.
