@@ -37,7 +37,8 @@ NUMBER_WORDS = [
 ]
 
 INTRO = (
-    "Th'die's Cast. D twenty. "
+    # Written Th'die's Cast is spoken as 'The die is cast'.
+    "The die is cast. D twenty. "
     "To roll, seek to a random point in this episode. "
     "If you land partway through a number, ignore that fragment. "
     "Your roll is the next number you hear from its beginning. "
@@ -129,7 +130,7 @@ def main() -> None:
     # Useful for reproducibility and spot-checking the actual audio,
     # but NOT to be shown to the listener who is seeking a random result.
     MANIFEST_PATH.write_text(json.dumps({
-        "series": "Th'die's Cast", "episode": "D20 — Pilot",
+        "series": "Th’die’s Cast", "spoken_series_name": "The die is cast", "episode": "D20 — Pilot",
         "status": "audition, not released", "voice": VOICE, "speed": SPEED,
         "source": "Kokoro (generated speech)",
         "seed": SEED, "block_count": BLOCKS, "die_sides": 20,
