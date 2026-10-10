@@ -13,12 +13,13 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Production design and open implementation decisions](docs/PRODUCTION_PLAN.md)
 - [Reference games, audio sources, and rights research](docs/REFERENCES_AND_RIGHTS.md)
 - [Public-domain recorded-voice shortlist](docs/PUBLIC_DOMAIN_VOICE_SOURCES.md)
+- [Companion app size research backlog](docs/COMPANION_APP_SIZE_SURVEY_TODO.md)
 - [Wilderness Oracle: 80 original encounter scripts](manuscripts/WILDERNESS_ORACLE_80.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
 ## State
 
-**Planning phase.** The episode list is a working catalog, not a promise that all formats are approved or ready. Several dice types and game adaptations deliberately await user-specified mechanics. The opening five-release slate is proposed, not published.
+**Planning and audition phase.** The episode list is a working catalog, not a promise that all formats are approved or ready. A D20 MP3 pilot has been rendered but not published to the podcast feed. Several dice types and game adaptations deliberately await user-specified mechanics. The opening five-release slate is proposed, not published.
 
 ### First-release proposal
 
@@ -31,6 +32,12 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 ### Listening to the voice tests
 
 [Open the mobile-friendly wizard voice auditions](https://udeudeude.github.io/wizard-auditions/). The audition samples are in the [wizard-voice-auditions branch](https://github.com/udeudeude/Th-die-s-Cast/tree/wizard-voice-auditions); do not confuse them with published podcast episodes.
+
+## D20 pilot: listen and review
+
+- [Play the 30-minute, 21-second D20 MP3 (Lewis)](https://raw.githubusercontent.com/udeudeude/Th-die-s-Cast/main/audio/Thdies-Cast-D20-pilot-lewis.mp3)
+- [D20 generation manifest and shuffle order](data/d20_pilot_manifest.json)
+- Format: 360 rolls, five-second fixed slots, eighteen shuffled permutations of 1–20; spoken instructions at the beginning. **Pilot only, not a published RSS episode.**
 
 ## Product principles
 
