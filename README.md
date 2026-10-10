@@ -12,6 +12,8 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Comprehensive episode catalog and proposed first releases](docs/EPISODE_CATALOG.md)
 - [Production design and open implementation decisions](docs/PRODUCTION_PLAN.md)
 - [Reference games, audio sources, and rights research](docs/REFERENCES_AND_RIGHTS.md)
+- [Public-domain recorded-voice shortlist](docs/PUBLIC_DOMAIN_VOICE_SOURCES.md)
+- [Wilderness Oracle: 80 original encounter scripts](manuscripts/WILDERNESS_ORACLE_80.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
 ## State
