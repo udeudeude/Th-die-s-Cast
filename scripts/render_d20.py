@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Render the first D20 podcast audition with Kokoro bm_lewis.
 
-Pilot only; not published to RSS.\nThirty minutes of five-second sample-aligned slots:
+Pilot only; not published to RSS.
+Thirty minutes of five-second sample-aligned slots:
 18 independently shuffled blocks of all 20 face values. An introductory
 voiceover precedes the results. The introduction is *not* included in the
 thirty-minute dice portion. This is a pilot, not an approved production lock.
@@ -26,6 +27,11 @@ BLOCKS = 18
 SEED = 20261009
 VOICE = "bm_lewis"
 SPEED = 0.94
+SPOKEN_TITLE = "The die's cast."
+SECRET_FALSE_ROLL = "Twenty-one."
+SECRET_REVEAL = "No. Not really. That would be ridiculous. This is the end of the recording. You shouldn't be here anyway."
+SECRET_LEAD_IN_SECONDS = 6.0
+SECRET_BEAT_SECONDS = 2.5
 WAV_PATH = Path("audio/.d20-pilot-temporary.wav")
 MP3_PATH = Path("audio/Thdies-Cast-D20-pilot-lewis.mp3")
 MANIFEST_PATH = Path("data/d20_pilot_manifest.json")
@@ -37,8 +43,8 @@ NUMBER_WORDS = [
 ]
 
 INTRO = (
-    # Written Th'die's Cast is spoken as 'The die is cast'.
-    "The die is cast. D twenty. "
+    # The displayed title is Th’die’s Cast. Audition 02 is the approved sound.
+    SPOKEN_TITLE + " D twenty. "
     "To roll, seek to a random point in this episode. "
     "If you land partway through a number, ignore that fragment. "
     "Your roll is the next number you hear from its beginning. "
@@ -113,6 +119,15 @@ def main() -> None:
                 audio = speech[die]
                 frame[START_PAD_SAMPLES:START_PAD_SAMPLES+len(audio)] = audio
                 wave.write(frame)
+        # This coda follows the 360 valid rolls, and is NOT an additional roll.
+        rolls_end_seconds = wave.frames / SAMPLE_RATE
+        wave.write(np.zeros(round(SECRET_LEAD_IN_SECONDS * SAMPLE_RATE), dtype=np.float32))
+        epilogue_start_seconds = wave.frames / SAMPLE_RATE
+        print("Rendering hidden false-21 epilogue", flush=True)
+        wave.write(synthesize(pipeline, SECRET_FALSE_ROLL))
+        wave.write(np.zeros(round(SECRET_BEAT_SECONDS * SAMPLE_RATE), dtype=np.float32))
+        wave.write(synthesize(pipeline, SECRET_REVEAL))
+        wave.write(np.zeros(round(1.1 * SAMPLE_RATE), dtype=np.float32))
         total_duration = wave.frames / SAMPLE_RATE
 
     print(f"Total WAV seconds: {total_duration:.3f}", flush=True)
@@ -130,16 +145,21 @@ def main() -> None:
     # Useful for reproducibility and spot-checking the actual audio,
     # but NOT to be shown to the listener who is seeking a random result.
     MANIFEST_PATH.write_text(json.dumps({
-        "series": "Th’die’s Cast", "spoken_series_name": "The die is cast", "episode": "D20 — Pilot",
+        "series": "Th’die’s Cast", "spoken_series_name": SPOKEN_TITLE, "episode": "D20 — Pilot",
         "status": "audition, not released", "voice": VOICE, "speed": SPEED,
         "source": "Kokoro (generated speech)",
         "seed": SEED, "block_count": BLOCKS, "die_sides": 20,
         "slot_seconds": SLOT_SECONDS, "slot_onset_seconds": START_PAD_SECONDS,
         "intro_seconds": round(introduction_duration, 3),
+        "rolls_end_seconds": round(rolls_end_seconds, 3),
+        "epilogue_start_seconds": round(epilogue_start_seconds, 3),
+        "epilogue_text": SECRET_FALSE_ROLL + " [pause] " + SECRET_REVEAL,
+        "epilogue_is_a_roll": False,
+        "total_rolls": BLOCKS * 20,
         "total_seconds_approx": round(total_duration, 3),
         "randomization": "independent new shuffled permutations, each face exactly once per block",
         "permutations": sequences,
-        "notes": "Approximately 30 minutes of dice plus opening instructions. Each slot is 5.0 seconds, including variable silence. Seek randomly, discard clipped numbers, use next complete number. This is not an independent-roll stream."
+        "notes": "Approximately 30 minutes of dice plus opening instructions. Each slot is 5.0 seconds, including variable silence. Seek randomly, discard clipped numbers, use next complete number. This is not an independent-roll stream. The fake twenty-one after all 360 valid rolls is a hidden joke, not a roll."
     }, indent=2) + "\n")
 
     print("Ready:", MP3_PATH, MP3_PATH.stat().st_size, "bytes", flush=True)
