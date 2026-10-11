@@ -1,4 +1,4 @@
-name: Render seven Brother-name auditions
+name: Render eight Brother-name auditions
 on:
   push:
     branches: [brother-name-auditions-02]
@@ -35,7 +35,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
           python -m pip install -r requirements-d20.txt
-      - name: Generate seven Brother voices
+      - name: Generate eight Brother voices
         run: python scripts/render_brother_names_02.py
       - name: Validate output
         run: |
@@ -44,17 +44,17 @@ jobs:
           from pathlib import Path
           p=Path("auditions/brother-names-02")
           data=json.loads((p/"manifest.json").read_text())
-          assert len(data["candidates"]) == 7
+          assert len(data["candidates"]) == 8
           assert [row["printed_name"] for row in data["candidates"]] == [
               "Brother Rubicon","Brother TheDie","Brother The Die",
               "Brother Thudiey","Brother Thudie","Brother The Dhai",
-              "Brother Thadhai",
+              "Brother Thadhai","Brother Berengar",
           ]
           assert all((p/row["filename"]).stat().st_size > 2000 for row in data["candidates"])
           assert (p/data["compilation_filename"]).stat().st_size > 10000
-          print("Verified seven separate MP3s and the complete listening track.")
+          print("Verified eight separate MP3s and the complete listening track.")
           PY
-          ffprobe -v error -show_entries format=duration,size -of json auditions/brother-names-02/00-seven-brother-names-compilation.mp3
+          ffprobe -v error -show_entries format=duration,size -of json auditions/brother-names-02/00-eight-brother-names-compilation.mp3
       - name: Store audition files
         run: |
           git config user.name "github-actions[bot]"
@@ -69,6 +69,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: Seven-Brother-name-auditions
+          name: Eight-Brother-name-auditions
           path: auditions/brother-names-02
           if-no-files-found: warn
