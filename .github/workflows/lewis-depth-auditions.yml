@@ -1,0 +1,66 @@
+name: Render Lewis voice depth auditions
+on:
+  push:
+    branches: [lewis-depth-auditions]
+    paths:
+      - scripts/render_lewis_depth.py
+      - .github/workflows/lewis-depth-auditions.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  voice-depth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: lewis-depth-auditions
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-d20.txt
+      - name: Install FFmpeg and Kokoro
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-d20.txt
+      - name: Synthesize seven timbres using a single Lewis master
+        run: python scripts/render_lewis_depth.py
+      - name: Verify seven auditions and compilation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          folder=Path("auditions/lewis-depth")
+          meta=json.loads((folder/"manifest.json").read_text())
+          assert len(meta["variants"])==7
+          for v in meta["variants"]:
+              assert (folder/v["filename"]).stat().st_size>6000
+              assert 7 < v["duration_seconds"] < 30
+          combined=folder/meta["compilation_filename"]
+          assert combined.stat().st_size>100000
+          print("Verified",len(meta["variants"]),"audio files",meta["compilation_seconds"],"seconds")
+          PY
+          ffprobe -v error -show_entries format=duration,size -of json auditions/lewis-depth/00-all-seven-lewis-depth-auditions.mp3
+      - name: Commit only audition artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auditions/lewis-depth/
+          if ! git diff --cached --quiet; then
+            git commit -m "Render seven Lewis voice depth and timbre auditions"
+            git pull --rebase origin lewis-depth-auditions
+            git push origin HEAD:lewis-depth-auditions
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Lewis-voice-depth-auditions
+          path: auditions/lewis-depth/
+          if-no-files-found: warn
