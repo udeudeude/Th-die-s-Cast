@@ -120,3 +120,12 @@ This is a **podcast-only utility**. Bezier's official page links to https://onen
 - Compare Lewis's spoken numbers, including teens vs tens, in quiet and noisy environments.
 - Verify cues for real-time games within second-level precision and sync after seeking/pausing.
 - Check show notes and rights attribution, correct URL, unique GUID and enclosure sizes, and that no episode is labeled published before a file exists.
+
+## Lewis Voice Lab (production-only prototype, October 2026)
+
+A separate browser tool for **experimenting with the narrator's recorded voice** is being developed at https://udeudeude.github.io/voice-lab/ . It is **not** a gameplay companion and does not alter the project's podcast-only distribution policy.
+
+Initial prototype features: upload a short voice excerpt or select an authorized Lewis audition; independent pitch, speaking-speed, and **approximate cepstral formant-envelope** adjustments (processed in a Web Worker), live high-pass/body/presence/air EQ, compressor threshold/ratio, echo, room reverb, level, A/B raw-versus-processed playback, presets, and export to 24 kHz mono WAV. Audio is processed locally in the browser. The formant processor is a real spectral-envelope shifter, not a bass EQ, but it is a **preview-quality** approximation; extreme settings can create phasing and other artifacts. This prototype's static code and DSP signal tests passed in GitHub Actions; iPhone Safari playback still needs actual device verification. Production episodes continue to be mastered offline after decisions are made.
+
+Script changes, pronunciation stress, and true Kokoro voice-model blending require **fresh TTS synthesis** and are intentionally not misrepresented as postprocessing sliders in the prototype.
+
