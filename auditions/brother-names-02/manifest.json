@@ -61,8 +61,16 @@
       "tts_text_two": "What is a name but an old word spoken twice? Brother Thadhai is quite enough for me.",
       "filename": "07-thadhai.mp3",
       "duration_seconds_approx": 14.975
+    },
+    {
+      "number": 8,
+      "printed_name": "Brother Berengar",
+      "tts_text_one": "The old roads have brought you to Brother Berengar. This is the die's cast. Listen well.",
+      "tts_text_two": "I am Brother Berengar. The road is long, and chance has not yet spoken.",
+      "filename": "08-berengar.mp3",
+      "duration_seconds_approx": 14.525
     }
   ],
-  "compilation_filename": "00-seven-brother-names-compilation.mp3",
-  "compilation_duration_seconds_approx": 138.25
+  "compilation_filename": "00-eight-brother-names-compilation.mp3",
+  "compilation_duration_seconds_approx": 156.9
 }
