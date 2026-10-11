@@ -1,0 +1,68 @@
+{
+  "project": "Th’die’s Cast",
+  "voice": "bm_lewis",
+  "speed": 0.94,
+  "spoken_podcast_title": "The die's cast",
+  "status": "experimental name auditions; no name chosen",
+  "note": "TTS was given the seven exact candidate spellings, including TheDie vs The Die.",
+  "candidates": [
+    {
+      "number": 1,
+      "printed_name": "Brother Rubicon",
+      "tts_text_one": "The old roads have brought you to Brother Rubicon. This is the die's cast. Listen well.",
+      "tts_text_two": "Beyond this threshold, there is no going back. Brother Rubicon will see you across.",
+      "filename": "01-rubicon.mp3",
+      "duration_seconds_approx": 15.3
+    },
+    {
+      "number": 2,
+      "printed_name": "Brother TheDie",
+      "tts_text_one": "The old roads have brought you to Brother TheDie. This is the die's cast. Listen well.",
+      "tts_text_two": "A name may be a sign, or merely a sound. Mine is Brother TheDie. Now, shall we begin?",
+      "filename": "02-thedie.mp3",
+      "duration_seconds_approx": 15.5
+    },
+    {
+      "number": 3,
+      "printed_name": "Brother The Die",
+      "tts_text_one": "The old roads have brought you to Brother The Die. This is the die's cast. Listen well.",
+      "tts_text_two": "Some folk swear that fortune has a face. They call me Brother The Die. I have never seen it.",
+      "filename": "03-the-die.mp3",
+      "duration_seconds_approx": 15.425
+    },
+    {
+      "number": 4,
+      "printed_name": "Brother Thudiey",
+      "tts_text_one": "The old roads have brought you to Brother Thudiey. This is the die's cast. Listen well.",
+      "tts_text_two": "The last bell has rung, and no one knows why. Brother Thudiey knows even less.",
+      "filename": "04-thudiey.mp3",
+      "duration_seconds_approx": 14.95
+    },
+    {
+      "number": 5,
+      "printed_name": "Brother Thudie",
+      "tts_text_one": "The old roads have brought you to Brother Thudie. This is the die's cast. Listen well.",
+      "tts_text_two": "The fire is warm, and the hour is late. Brother Thudie, they call me. Sit, and hear what chance has to say.",
+      "filename": "05-thudie.mp3",
+      "duration_seconds_approx": 16.65
+    },
+    {
+      "number": 6,
+      "printed_name": "Brother The Dhai",
+      "tts_text_one": "The old roads have brought you to Brother The Dhai. This is the die's cast. Listen well.",
+      "tts_text_two": "A traveler once asked my name. I told him: Brother The Dhai. He wrote it wrong, of course.",
+      "filename": "06-the-dhai.mp3",
+      "duration_seconds_approx": 15.85
+    },
+    {
+      "number": 7,
+      "printed_name": "Brother Thadhai",
+      "tts_text_one": "The old roads have brought you to Brother Thadhai. This is the die's cast. Listen well.",
+      "tts_text_two": "What is a name but an old word spoken twice? Brother Thadhai is quite enough for me.",
+      "filename": "07-thadhai.mp3",
+      "duration_seconds_approx": 14.975
+    }
+  ],
+  "compilation_filename": "00-seven-brother-names-compilation.mp3",
+  "compilation_duration_seconds_approx": 138.25
+}
