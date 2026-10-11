@@ -1,0 +1,82 @@
+{
+  "series": "Th’die’s Cast",
+  "narrator": "Kokoro bm_lewis",
+  "base_speed": 0.94,
+  "reference_script": "I am Brother Berengar. Welcome to the die's cast. The road is long, and fortune seldom walks beside us. Still, you may roll.",
+  "formant_preserving_filter_available": true,
+  "status": "technical voice auditions, no changes to released/pilot content",
+  "variants": [
+    {
+      "number": 1,
+      "label": "Natural Lewis",
+      "description": "an unmodified Kokoro recording",
+      "filename": "01-natural.mp3",
+      "filter": "anull",
+      "duration_seconds": 10.848,
+      "size_bytes": 130509,
+      "formant_caveat": ""
+    },
+    {
+      "number": 2,
+      "label": "Deliberate and slow",
+      "description": "11 percent slower, with the same pitch",
+      "filename": "02-slower.mp3",
+      "filter": "atempo=0.89",
+      "duration_seconds": 12.168,
+      "size_bytes": 146349,
+      "formant_caveat": ""
+    },
+    {
+      "number": 3,
+      "label": "Six percent deeper",
+      "description": "pitch 0.94, duration preserved, formants preserved",
+      "filename": "03-deep-gentle.mp3",
+      "filter": "rubberband=pitch=0.94:tempo=1:formant=preserved",
+      "duration_seconds": 10.848,
+      "size_bytes": 130509,
+      "formant_caveat": ""
+    },
+    {
+      "number": 4,
+      "label": "Twelve percent deeper",
+      "description": "pitch 0.88, duration preserved, formants preserved",
+      "filename": "04-deep-medium.mp3",
+      "filter": "rubberband=pitch=0.88:tempo=1:formant=preserved",
+      "duration_seconds": 10.848,
+      "size_bytes": 130509,
+      "formant_caveat": ""
+    },
+    {
+      "number": 5,
+      "label": "Darkened and resonant",
+      "description": "pitch 0.88, duration preserved, formants shifted",
+      "filename": "05-deep-dark.mp3",
+      "filter": "rubberband=pitch=0.88:tempo=1:formant=shifted",
+      "duration_seconds": 10.848,
+      "size_bytes": 130509,
+      "formant_caveat": ""
+    },
+    {
+      "number": 6,
+      "label": "Warm and close",
+      "description": "pitch 0.92, warmth EQ and modest compression",
+      "filename": "06-warm-close.mp3",
+      "filter": "rubberband=pitch=0.92:tempo=1:formant=preserved,highpass=f=75,bass=g=2:f=155,acompressor=threshold=-22dB:ratio=1.5:attack=18:release=150",
+      "duration_seconds": 10.848,
+      "size_bytes": 130509,
+      "formant_caveat": ""
+    },
+    {
+      "number": 7,
+      "label": "Quiet stone hall",
+      "description": "pitch 0.92, subtle room echo",
+      "filename": "07-stone-hall.mp3",
+      "filter": "rubberband=pitch=0.92:tempo=1:formant=preserved,highpass=f=75,aecho=0.65:0.16:110:0.10",
+      "duration_seconds": 10.968,
+      "size_bytes": 131949,
+      "formant_caveat": ""
+    }
+  ],
+  "compilation_filename": "00-all-seven-lewis-depth-auditions.mp3",
+  "compilation_seconds": 111.816
+}
