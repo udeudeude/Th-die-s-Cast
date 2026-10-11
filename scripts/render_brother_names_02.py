@@ -20,7 +20,7 @@ OUT = Path("auditions/brother-names-02")
 VOICE = "bm_lewis"
 SPEED = 0.94
 SAMPLE_RATE = 24_000
-COMPILATION = "00-seven-brother-names-compilation.mp3"
+COMPILATION = "00-eight-brother-names-compilation.mp3"
 
 CANDIDATES = [
     {
@@ -77,6 +77,14 @@ CANDIDATES = [
         "second": (
             "What is a name but an old word spoken twice? "
             "Brother Thadhai is quite enough for me."
+        ),
+    },
+    {
+        "name": "Brother Berengar",
+        "slug": "berengar",
+        "second": (
+            "I am Brother Berengar. The road is long, "
+            "and chance has not yet spoken."
         ),
     },
 ]
