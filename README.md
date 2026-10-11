@@ -8,6 +8,8 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 
 **Spoken show title:** “The die's cast.” (audition take 02). **Wizard's personal name:** TBD; folkloric, medieval rather than contemporary fantasy.
 
+**Production voice editor:** [Lewis Voice Lab](https://udeudeude.github.io/voice-lab/) is a standalone browser-based production tool, linked from the [Ude Projects directory](https://udeudeude.github.io/). Its source and the two audition recipes saved on October 11, 2026 are [permanently tracked in GitHub](https://github.com/udeudeude/udeudeude.github.io/tree/main/voice-lab/presets). The voice editor is **not** required for podcast playback.
+
 **Hidden D20 pilot epilogue:** A brief, deliberately unexpected coda follows the 360 genuine rolls; the coda is not a game result. Avoid disclosing its contents in public episode notes.
 
 ## Planning documents
