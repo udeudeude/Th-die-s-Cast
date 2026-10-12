@@ -4,7 +4,14 @@ _Working design, 2026-10-09. Do not implement unspecified game mechanics without
 
 ## Canonical show-title pronunciation
 
-Written/show/feed brand: **Th’die’s Cast**. Approved Lewis voice input: **“The die's cast.”**, chosen as pronunciation audition number 02. These strings are deliberately different; never supply the stylized title to the TTS engine. Spoken wizard character name is **unselected** pending folklore/medieval-oriented naming review.
+Written/show/feed brand: **Th’die’s Cast**. Approved Lewis voice input: **“The die's cast.”**, chosen as pronunciation audition number 02. These strings are deliberately different; never supply the stylized title to the TTS engine. The current wizard/narrator is **Brother Rubicon**, using the producer-selected **Saved 02 · Natural pitch, light room** voice settings, until further notice.
+
+## Five pilot episodes published in RSS (2026-10-11)
+
+- Direct podcast feed: **https://udeudeude.github.io/thdies-cast/feed.xml**
+- Hosting/build: [GitHub Pages source](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast).
+- Narrator: **Brother Rubicon** voiced by Kokoro `bm_lewis`, with exact saved profile values in [production manifest](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/pilot-manifest.json). The offline formant process is an approximation of the Web Audio Voice Lab controls; listening approval remains necessary.
+- All five working episodes (D20, 2D6, D100, Wilderness Oracle, Ten Minutes to Disaster) are downloadable in standard podcast clients. Mechanics are preliminary and can be revised.
 
 ## Secret end-of-episode coda
 
