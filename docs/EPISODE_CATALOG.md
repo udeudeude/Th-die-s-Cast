@@ -2,17 +2,21 @@
 
 _Last revised 2026-10-09. Brainstorming catalog, not an approval of exact mechanics._
 
-## Initial release slate (proposed order)
+## Five-episode pilot feed (first released 2026-10-11)
 
-| # | Episode | Purpose | Status |
-| --- | --- | --- | --- |
-| 01 | **D20** | Establish seek-and-hear-a-roll behavior, approx. 30 minutes | Proposed, user to give detailed behavior |
-| 02 | **2D6** | Show two-die results with authentic probability | Proposed, mechanics presentation TBD |
-| 03 | **D100** | Percentile results as a general-purpose utility | Proposed, whether 1–100 vs percentile notation TBD |
-| 04 | **The Wilderness Oracle** | Approx. 30 minutes of **distinct** wilderness encounters rather than a repeated 20-entry table | Proposed; develop original material |
-| 05 | **Ten Minutes to Disaster** | Original ten-minute functional timer; generic enough for many games | Proposed; original cues and script TBD |
+Subscribe by URL: **https://udeudeude.github.io/thdies-cast/feed.xml**
 
-These are **not yet published**. No production dates committed. Dice variants below need explicit user review before implementation.
+These five numbered **pilot episodes are published for listening and feedback** with **Brother Rubicon** and the Saved 02 Lewis voice treatment. They do not settle every future mechanic.
+
+| # | Episode | Pilot implementation |
+| --- | --- | --- |
+| 01 | **D20** | 360 values in 18 reshuffled permutations of 1–20, 5-second fixed slots; **not independent adjacent rolls** |
+| 02 | **2D6** | 300 rolls of two independent D6s, speaking both faces and the sum, 6-second slots |
+| 03 | **D100** | 300 independent uniformly selected integers 1–100 (inclusive), 6-second slots |
+| 04 | **The Wilderness Oracle** | 80 original, individually narrated encounters from `manuscripts/WILDERNESS_ORACLE_80.md`; chime boundaries, no spoken titles/numbers |
+| 05 | **Ten Minutes to Disaster** | Ten-minute original synthesized functional score with timed voice landmarks, a completion bell at 10:00, then an optional coda |
+
+Source and distribution files: [five-episode production folder](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast). Podcast-only playback: no companion app is needed. New standard dice and format decisions below remain under review.
 
 ## Category 1: Dice & Probability Tools
 
