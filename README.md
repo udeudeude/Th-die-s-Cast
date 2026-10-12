@@ -4,9 +4,9 @@
 
 Not primarily a show to *listen to*: a collection of audio instruments you can use at the table. Seek to a random point for a die roll or oracle result; play a timer that runs the table; cue an encounter, a clue, or a soundscape. Created as a lightweight, ordinary podcast alternative to installing large specialized game apps.
 
-**Narrator:** Kokoro British voice `bm_lewis` (selected). The exact performance style and processing are still to be determined.
+**Current host:** **Brother Rubicon**, synthesized from Kokoro British male `bm_lewis`, with the producer-selected **Saved 02 · Natural pitch, light room** settings. The separate offline effects chain approximates the Voice Lab preset; the final master is subject to listening feedback.
 
-**Spoken show title:** “The die's cast.” (audition take 02). **Wizard's personal name:** TBD; folkloric, medieval rather than contemporary fantasy.
+**Spoken show title:** “The die's cast.” (audition take 02). **Character name and voice:** Brother Rubicon, until further notice.
 
 **Production voice editor:** [Lewis Voice Lab](https://udeudeude.github.io/voice-lab/) is a standalone browser-based production tool, linked from the [Ude Projects directory](https://udeudeude.github.io/). Its source and the two audition recipes saved on October 11, 2026 are [permanently tracked in GitHub](https://github.com/udeudeude/udeudeude.github.io/tree/main/voice-lab/presets). The voice editor is **not** required for podcast playback.
 
@@ -23,17 +23,20 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Wilderness Oracle: 80 original encounter scripts](manuscripts/WILDERNESS_ORACLE_80.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
-## State
+## Listen: five-episode pilot season (now available)
 
-**Planning and audition phase.** The episode list is a working catalog, not a promise that all formats are approved or ready. A D20 MP3 pilot has been rendered but not published to the podcast feed. Several dice types and game adaptations deliberately await user-specified mechanics. The opening five-release slate is proposed, not published.
+**Subscribe in Apple Podcasts by URL:** `https://udeudeude.github.io/thdies-cast/feed.xml`
 
-### First-release proposal
+- [Open the simple podcast listening and feed page](https://udeudeude.github.io/thdies-cast/)
+- [RSS feed](https://udeudeude.github.io/thdies-cast/feed.xml)
+- [Pilot master and reproducible build source](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast)
+- [Production manifest (including exact Saved 02 parameters)](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/pilot-manifest.json)
 
-1. D20
-2. 2D6
-3. D100
-4. The Wilderness Oracle
-5. Ten Minutes to Disaster
+The **five numbered pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (all 80 original encounters), and Ten Minutes to Disaster. The feed is a public direct-subscription RSS feed; it has **not** been submitted to the Apple Podcasts public directory. We can change episode mechanics and recording choices after the producer listens to them.
+
+Implementation choices for these first versions: D20 keeps eighteen independently shuffled 1–20 blocks (not independent draws across every adjacent face). 2D6 independently rolls two six-sided dice and speaks both and their sum; 300 rolls at six-second intervals. D100 is independently sampled 1–100 inclusive, 300 rolls at six-second intervals. The Oracle reads only each encounter's prose, marked by a neutral chime, not their numbers or titles. The original timer score has a ten-minute completion cue and a coda afterward.
+
+The public webpage is for subscription and preview only, **not a gameplay companion app**. All five episodes work through podcast listening and downloading.
 
 ### Listening to the voice tests
 
