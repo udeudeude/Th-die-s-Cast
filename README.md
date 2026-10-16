@@ -15,6 +15,7 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 ## Planning documents
 
 - [Show identity, categories, and boundaries](docs/SHOW_BIBLE.md)
+- [Ten unselected Brother Rubicon introduction options](docs/BROTHER_RUBICON_INTRO_OPTIONS.md)
 - [Comprehensive episode catalog and proposed first releases](docs/EPISODE_CATALOG.md)
 - [Production design and open implementation decisions](docs/PRODUCTION_PLAN.md)
 - [Reference games, audio sources, and rights research](docs/REFERENCES_AND_RIGHTS.md)
