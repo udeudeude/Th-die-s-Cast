@@ -27,7 +27,7 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Audio production runbook: the existing GitHub Actions studio](docs/AUDIO_PRODUCTION_RUNBOOK.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
-## Listen: 14-episode podcast (original five, eight balanced dice editions, and Creatures Behaving Strangely)
+## Listen: 15-episode podcast (dice, three encounter oracles, and a countdown)
 
 **Subscribe in Apple Podcasts by URL:** `https://udeudeude.github.io/thdies-cast/feed.xml`
 
@@ -35,11 +35,14 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [RSS feed](https://udeudeude.github.io/thdies-cast/feed.xml)
 - [Eight balanced dice editions, with direct audio players](https://udeudeude.github.io/thdies-cast/dice-methods/)
 - [Creatures Behaving Strangely, episode 14](https://udeudeude.github.io/thdies-cast/#ep14)
+- [Relics and Curiosities, episode 15](https://udeudeude.github.io/thdies-cast/#ep15)
 - [Published mathematical methods and outcome manifest](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
 - [Pilot master and reproducible build source](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast)
 - [Production manifest (including exact Saved 02 parameters)](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/pilot-manifest.json)
 
-The **five original pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (all 80 original encounters), and Ten Minutes to Disaster. **Eight additional full-length balanced dice editions are now also published**, with episode numbers 06–13: three D20 methods (shuffled blocks, giant shuffle, and all 400 ordered pairs), balanced 2D6 and D100, and balanced D4, D8 and D12. The original D20 is a valid shuffled-set method and stays a standard full episode. The initial 2D6 and D100 are retained as clearly labeled archival mathematical experiments; their result sequences and archival classifications remain intact. A 2026-10-24 mastering pass adjusted spoken levels while preserving the recorded outcomes. **Episode 14**, *Creatures Behaving Strangely*, now provides **80** independent encounters, with short natural pauses and **no electronic chimes**. It uses Brother Rubicon's selected Kokoro Lewis voice and the approved Saved 02 sound treatment. Its narrated audio and production manifest are published on the website; its [source manuscript](manuscripts/CREATURES_BEHAVING_STRANGELY_80.md) and [production master](production/CREATURES_BEHAVING_STRANGELY_EPISODE.md) remain here. The [reproducible rendering script](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/production/render_creatures.py) and [production workflow](https://github.com/udeudeude/udeudeude.github.io/blob/main/.github/workflows/publish-creatures.yml) live in the website repository.
+The **five original pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (all 80 original encounters), and Ten Minutes to Disaster. **Eight additional full-length balanced dice editions are now also published**, with episode numbers 06–13: three D20 methods (shuffled blocks, giant shuffle, and all 400 ordered pairs), balanced 2D6 and D100, and balanced D4, D8 and D12. The original D20 is a valid shuffled-set method and stays a standard full episode. The initial 2D6 and D100 are retained as clearly labeled archival mathematical experiments; their result sequences and archival classifications remain intact. A 2026-10-24 mastering pass adjusted spoken levels while preserving the recorded outcomes. **Episode 14**, *Creatures Behaving Strangely*, now provides **80** independent encounters, with short natural pauses and **no electronic chimes**. It uses Brother Rubicon's selected Kokoro Lewis voice and the approved Saved 02 sound treatment. Its narrated audio and production manifest are published on the website; its [source manuscript](manuscripts/CREATURES_BEHAVING_STRANGELY_80.md) and [production master](production/CREATURES_BEHAVING_STRANGELY_EPISODE.md) remain here. **Episode 15**, *Relics and Curiosities*, adds 80 original encounters with strange portable artifacts, [available as MP3](https://udeudeude.github.io/thdies-cast/audio/15-relics-and-curiosities.mp3) and through the RSS feed. The Wilderness Oracle and Creatures Behaving Strangely each contain 80 encounters with brief natural pauses, no electronic chimes, and updated seeking guidance.
+
+The [reproducible rendering script](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/production/render_creatures.py) and [production workflow](https://github.com/udeudeude/udeudeude.github.io/blob/main/.github/workflows/publish-creatures.yml) live in the website repository.
 
 The feed is a public direct-subscription RSS feed; it has **not** been submitted to the Apple Podcasts public directory. We can change episode mechanics and recording choices after the producer listens to them.
 
@@ -48,7 +51,7 @@ Implementation choices for these first versions: D20 keeps eighteen independentl
 **Narrator direction adopted October 23:** A different short, old-fashioned, faintly uncanny observation opens every new dice edition, followed verbatim by **“I am Brother Rubicon. The die's cast.”** The closing remark differs by episode; the D12 finishes with the favored **“I believe that was the last. I had been told there would be one more.”** The published episode notes distinguish exact frequency balance from independence of consecutive draws.
 
 
-The public webpage is for subscription and preview only, **not a gameplay companion app**. All fourteen published episodes work through podcast listening and downloading.
+The public webpage is for subscription and preview only, **not a gameplay companion app**. All fifteen published episodes work through podcast listening and downloading.
 
 ### Listening to the voice tests
 
