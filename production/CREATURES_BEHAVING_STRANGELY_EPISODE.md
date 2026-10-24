@@ -11,7 +11,7 @@ The 20-scene first draft remains in version control as a historical prototype, *
 - Brother Rubicon; Kokoro `bm_lewis`, Saved 02 · Natural pitch, light room.
 - Opening observation: “Animals are said to know things before we do. This does not mean they intend to tell us.”
 - After ~0.32 seconds: “I am Brother Rubicon. The die's cast.” Speak this entire phrase as one utterance.
-- After another ~0.32 seconds: “Seek to a random point during the encounters. Ignore any encounter already in progress. Your encounter is the next complete scene you hear from its beginning.”
+- After another ~0.32 seconds: “This is Creatures Behaving Strangely. Seek to a random point during the encounters. Ignore any encounter already in progress. Your encounter is the next complete scene you hear from its beginning.”
 - Read all 80 scenes, no numbers or titles, with **no electronic chimes, musical separators, or synthesized sound effects**. Natural silence between scenes: approximately 0.85 seconds. Do not pad individual scenes to fixed-length slots.
 - Closing coda (not included in public descriptions): “The animals have gone quiet. I do not believe that means they have finished.”
 
