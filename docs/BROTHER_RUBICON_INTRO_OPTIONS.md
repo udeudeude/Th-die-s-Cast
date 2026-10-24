@@ -4,6 +4,14 @@
 
 The spoken show title remains **“The die’s cast.”** It is rendered independently from the stylized printed brand **Th’die’s Cast**.
 
+## October 23, 2026: new approved structure and preferences
+
+These original drafts are **source material**, not individually approved verbatim as canonical. The producer prefers: **2, 3 somewhat, 4, 5 strongly, 6 strongly, 7 somewhat, 8 strongly, 9, 10 strongly, and 12** from the later twelve-option batch. Favorite territory: restrained mystery; natural, unselfconscious strangeness; meaningful numbers outside tabletop games; a human, slightly monastic personality. Avoid contemporary podcast-host familiarity or theatrical pseudo-medieval language.
+
+Every new episode should have **its own short, different observation** and then say, **exactly**: “I am Brother Rubicon. The die’s cast.” The “I am” is mandatory. The one-line episode-specific gameplay instructions follow these two elements. Distinctive closing codas include small jokes and, preferably, unexplained remarks leaving a subtle disturbance. The producer particularly likes: **“I believe that was the last. I had been told there would be one more.”**
+
+The first eight episodes produced to this structure are method-focused listening auditions, not commitments that the particular observations must remain permanent.
+
 ## Options to audition in language before recording
 
 1. **The practical fellow:** “Brother Rubicon here. This is The die’s cast. I'll give you a number. What you do with it is your affair.”
