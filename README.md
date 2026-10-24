@@ -31,6 +31,8 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Open the simple podcast listening and feed page](https://udeudeude.github.io/thdies-cast/)
 - [RSS feed](https://udeudeude.github.io/thdies-cast/feed.xml)
 - [Eight balanced dice editions, with direct audio players](https://udeudeude.github.io/thdies-cast/dice-methods/)
+- [Chapter-free illustrated D20 video (LightHouse artwork)](https://udeudeude.github.io/thdies-cast/dice-methods/#lighthouse-video)
+- [Dedicated video podcast RSS (separate subscription)](https://udeudeude.github.io/thdies-cast/video-feed.xml)
 - [Published mathematical methods and outcome manifest](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
 - [Pilot master and reproducible build source](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast)
 - [Production manifest (including exact Saved 02 parameters)](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/pilot-manifest.json)
@@ -40,6 +42,8 @@ The **five numbered pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (
 Implementation choices for these first versions: D20 keeps eighteen independently shuffled 1–20 blocks (not independent draws across every adjacent face). 2D6 independently rolls two six-sided dice and speaks both and their sum; 300 rolls at six-second intervals. D100 is independently sampled 1–100 inclusive, 300 rolls at six-second intervals. The Oracle reads only each encounter's prose, marked by a neutral chime, not their numbers or titles. The original timer score has a ten-minute completion cue and a coda afterward.
 
 **Narrator direction adopted October 23:** A different short, old-fashioned, faintly uncanny observation opens every new dice edition, followed verbatim by **“I am Brother Rubicon. The die's cast.”** The closing remark differs by episode; the D12 finishes with the favored **“I believe that was the last. I had been told there would be one more.”** The published episode notes distinguish exact frequency balance from independence of consecutive draws.
+
+**Illustrated experiment:** The user's [LightHouse](https://github.com/udeudeude/LightHouse) icosahedron mesh and per-face orientation were adapted into a square H.264/AAC MP4 synchronized to all 400 results in the D20 pair-balanced audio. All 20 faces are individually shown; **no per-result chapters exist**. This is a separate optional video-podcast feed, not a mandatory companion app, and audio editions remain unchanged.
 
 The public webpage is for subscription and preview only, **not a gameplay companion app**. All five episodes work through podcast listening and downloading.
 
