@@ -1,6 +1,6 @@
 # Episode catalog and release roadmap
 
-_Last revised 2026-10-09. Brainstorming catalog, not an approval of exact mechanics._
+_Updated 2026-10-23. Published and provisional mechanics are distinguished below; unproduced entries remain exploratory._
 
 ## Five-episode pilot feed (first released 2026-10-11)
 
@@ -17,6 +17,30 @@ These five numbered **pilot episodes are published for listening and feedback** 
 | 05 | **Ten Minutes to Disaster** | Ten-minute original synthesized functional score with timed voice landmarks, a completion bell at 10:00, then an optional coda |
 
 Source and distribution files: [five-episode production folder](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast). Podcast-only playback: no companion app is needed. New standard dice and format decisions below remain under review.
+
+## Additional balanced dice editions (first released October 23, 2026)
+
+Eight more full-length audio recordings are published in the [same subscription feed](https://udeudeude.github.io/thdies-cast/feed.xml). Each opens with an original short observation, followed by the fixed wording **“I am Brother Rubicon. The die's cast.”**, and uses a different closing remark. The endings are deliberately not disclosed in public episode descriptions.
+
+| # | New edition | Fairness construction | Results-only length |
+|---|---|---|---|
+| 06 | D20 · Shuffled Sets | 18 independent shuffles of 1–20 (360 outcomes) | 30:00 |
+| 07 | D20 · One Giant Shuffle | 18 copies of each face in a single randomized pool (360 outcomes) | 30:00 |
+| 08 | D20 · Every Possible Pair | Order-two de Bruijn cycle: every ordered pair once (400 outcomes, including doubles) | 33:20 |
+| 09 | 2D6 · Thirty-Six Possibilities | 10 permutations of all 36 ordered pairs (360 outcomes) | 30:00 |
+| 10 | D100 · Three Complete Shuffles | Three permutations of values 1–100 (300 outcomes) | 30:00 |
+| 11 | D4 · Four Paths | 90 permutations of 1–4 (360 outcomes) | 30:00 |
+| 12 | D8 · Eight Paths | 45 permutations of 1–8 (360 outcomes) | 30:00 |
+| 13 | D12 · Twelve Paths | 30 permutations of 1–12 (360 outcomes) | 30:00 |
+
+Each provides *exact frequencies across the functional recording*, conditional on selecting uniformly distributed time slots. Sequential results are generally not independent, and hand-operated seeking may not be uniform. The old 01–03 recordings remain in RSS with their original media preserved as **archival experiments**, described honestly: 01 is globally balanced but locally constrained; 02 and 03 were drawn independently with correct generating probabilities but their particular fixed recordings are not globally balanced (D100 omits six numbers).
+
+- [All eight playable editions and method notes](https://udeudeude.github.io/thdies-cast/dice-methods/)
+- [Versioned production manifest with precise sequences](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
+- [No-chapter illustrated D20 video, built from the user's LightHouse D20 mesh](https://udeudeude.github.io/thdies-cast/dice-methods/#lighthouse-video)
+- [Dedicated video-podcast subscription feed](https://udeudeude.github.io/thdies-cast/video-feed.xml)
+
+The illustrated D20 is an optional MP4 video rendition of episode 08, *not* an audio chapter-art workaround and not a required companion app.
 
 ## Category 1: Dice & Probability Tools
 
