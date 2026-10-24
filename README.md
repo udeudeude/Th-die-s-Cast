@@ -24,18 +24,22 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Wilderness Oracle: 80 original encounter scripts](manuscripts/WILDERNESS_ORACLE_80.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
-## Listen: five-episode pilot season (now available)
+## Listen: 13-episode podcast (original five and eight balanced editions)
 
 **Subscribe in Apple Podcasts by URL:** `https://udeudeude.github.io/thdies-cast/feed.xml`
 
 - [Open the simple podcast listening and feed page](https://udeudeude.github.io/thdies-cast/)
 - [RSS feed](https://udeudeude.github.io/thdies-cast/feed.xml)
+- [Eight balanced dice editions, with direct audio players](https://udeudeude.github.io/thdies-cast/dice-methods/)
+- [Published mathematical methods and outcome manifest](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
 - [Pilot master and reproducible build source](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast)
 - [Production manifest (including exact Saved 02 parameters)](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/pilot-manifest.json)
 
-The **five numbered pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (all 80 original encounters), and Ten Minutes to Disaster. The feed is a public direct-subscription RSS feed; it has **not** been submitted to the Apple Podcasts public directory. We can change episode mechanics and recording choices after the producer listens to them.
+The **five numbered pilot episodes** are D20, 2D6, D100, The Wilderness Oracle (all 80 original encounters), and Ten Minutes to Disaster. **Eight additional full-length balanced dice editions are now also published**, with episode numbers 06–13: three D20 methods (shuffled blocks, giant shuffle, and all 400 ordered pairs), balanced 2D6 and D100, and balanced D4, D8 and D12. The initial 01–03 recordings are retained as **clearly labeled archival mathematical experiments**; their existing MP3s remain untouched. The feed is a public direct-subscription RSS feed; it has **not** been submitted to the Apple Podcasts public directory. We can change episode mechanics and recording choices after the producer listens to them.
 
 Implementation choices for these first versions: D20 keeps eighteen independently shuffled 1–20 blocks (not independent draws across every adjacent face). 2D6 independently rolls two six-sided dice and speaks both and their sum; 300 rolls at six-second intervals. D100 is independently sampled 1–100 inclusive, 300 rolls at six-second intervals. The Oracle reads only each encounter's prose, marked by a neutral chime, not their numbers or titles. The original timer score has a ten-minute completion cue and a coda afterward.
+
+**Narrator direction adopted October 23:** A different short, old-fashioned, faintly uncanny observation opens every new dice edition, followed verbatim by **“I am Brother Rubicon. The die's cast.”** The closing remark differs by episode; the D12 finishes with the favored **“I believe that was the last. I had been told there would be one more.”** The published episode notes distinguish exact frequency balance from independence of consecutive draws.
 
 The public webpage is for subscription and preview only, **not a gameplay companion app**. All five episodes work through podcast listening and downloading.
 
