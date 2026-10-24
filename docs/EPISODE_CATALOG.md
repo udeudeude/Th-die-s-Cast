@@ -1,6 +1,6 @@
 # Episode catalog and release roadmap
 
-_Updated 2026-10-23. Published and provisional mechanics are distinguished below; unproduced entries remain exploratory._
+_Updated 2026-10-24. Published and provisional mechanics are distinguished below; unproduced entries remain exploratory._
 
 ## Five-episode pilot feed (first released 2026-10-11)
 
@@ -13,7 +13,7 @@ These five numbered **pilot episodes are published for listening and feedback** 
 | 01 | **D20** | 360 values in 18 reshuffled permutations of 1–20, 5-second fixed slots; **not independent adjacent rolls** |
 | 02 | **2D6** | 300 rolls of two independent D6s, speaking both faces and the sum, 6-second slots |
 | 03 | **D100** | 300 independent uniformly selected integers 1–100 (inclusive), 6-second slots |
-| 04 | **The Wilderness Oracle** | 80 original, individually narrated encounters from `manuscripts/WILDERNESS_ORACLE_80.md`; chime boundaries, no spoken titles/numbers |
+| 04 | **The Wilderness Oracle** | 80 original, individually narrated encounters from `manuscripts/WILDERNESS_ORACLE_80.md`; short natural pauses without chimes, no spoken titles/numbers |
 | 05 | **Ten Minutes to Disaster** | Ten-minute original synthesized functional score with timed voice landmarks, a completion bell at 10:00, then an optional coda |
 
 Source and distribution files: [five-episode production folder](https://github.com/udeudeude/udeudeude.github.io/tree/main/thdies-cast). Podcast-only playback: no companion app is needed. New standard dice and format decisions below remain under review.
@@ -38,6 +38,13 @@ Each provides *exact frequencies across the functional recording*, conditional o
 - [All eight playable editions and method notes](https://udeudeude.github.io/thdies-cast/dice-methods/)
 - [Versioned production manifest with precise sequences](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
 
+
+## Encounter oracle expansion (October 24, 2026)
+
+- **Episode 14, Creatures Behaving Strangely:** 80 independent, original scenes about strange animal conduct, available in the same subscription feed. [Canonical manuscript](../manuscripts/CREATURES_BEHAVING_STRANGELY_80.md).
+- **Episode 15, Relics and Curiosities:** 80 independent, original scenes about peculiar portable artifacts. [Canonical manuscript](../manuscripts/RELICS_AND_CURIOSITIES_80.md). Its narrated release is in production.
+- **Wilderness Oracle:** still 80 independent scenes. The synthetic chimes were removed, long gaps shortened, and the spoken instruction to wait for chimes is being replaced.
+- All three encounter oracles use **no synthetic transition sounds**, no spoken entry numbers/titles, and approximately 0.85-second natural separation. Only complete encountered scenes are usable after seeking.
 
 ## Category 1: Dice & Probability Tools
 
