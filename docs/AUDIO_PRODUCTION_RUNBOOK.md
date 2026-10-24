@@ -17,6 +17,7 @@
 - Narrator: Brother Rubicon, Kokoro `bm_lewis`, spoken show title **“The die's cast.”**
 - Preserve **Saved 02 · Natural pitch, light room** treatment and recorded sample rate; exact values are in `pilot-manifest.json`. Offline Rubber Band + equalizer + room treatment approximates, but does not exactly duplicate, the Voice Lab preview.
 - Distinct quiet observation, subtle 0.32-second beat, **“I am Brother Rubicon. The die's cast.”** as one utterance, another beat, then concise functional instruction.
+- **Every encounter episode must identify itself aloud** at the start of the practical instructions: “This is the Wilderness Oracle.”, “This is Creatures Behaving Strangely.”, or “This is Relics and Curiosities.” Do not add the unnecessary wraparound instruction “If you reach the end, return to the first encounter after the introduction.”
 - Original encounter prose is read without entry numbers or headings. **No synthesized chimes or musical separator** in encounter recordings; use short natural silence. Never spoil the closing coda in public descriptions.
 - Don't put internal implementation prose, model names, audio technicalities, fairness caveats or claims about the coda in public show descriptions. Those belong in source documentation, not the podcast player.
 - Avoid lengthy dead air. For prose scenes, prefer short inter-scene gaps to rigid 35-second blocks. This may make arbitrary seeking time-weighted; document it internally and prioritize the listener experience.
