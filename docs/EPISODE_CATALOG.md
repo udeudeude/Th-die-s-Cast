@@ -42,8 +42,8 @@ Each provides *exact frequencies across the functional recording*, conditional o
 ## Encounter oracle expansion (October 24, 2026)
 
 - **Episode 14, Creatures Behaving Strangely:** 80 independent, original scenes about strange animal conduct, available in the same subscription feed. [Canonical manuscript](../manuscripts/CREATURES_BEHAVING_STRANGELY_80.md).
-- **Episode 15, Relics and Curiosities:** 80 independent, original scenes about peculiar portable artifacts. [Canonical manuscript](../manuscripts/RELICS_AND_CURIOSITIES_80.md). Its narrated release is in production.
-- **Wilderness Oracle:** still 80 independent scenes. The synthetic chimes were removed, long gaps shortened, and the spoken instruction to wait for chimes is being replaced.
+- **Episode 15, Relics and Curiosities:** 80 independent, original scenes about peculiar portable artifacts. [Canonical manuscript](../manuscripts/RELICS_AND_CURIOSITIES_80.md). The narrated episode is now published as the fifteenth full recording.
+- **Wilderness Oracle:** still 80 independent scenes. The synthetic chimes were removed, long gaps shortened, and the spoken instruction to wait for chimes has been replaced with a direct next-complete-scene instruction.
 - All three encounter oracles use **no synthetic transition sounds**, no spoken entry numbers/titles, and approximately 0.85-second natural separation. Only complete encountered scenes are usable after seeking.
 
 ## Category 1: Dice & Probability Tools
