@@ -16,7 +16,7 @@ Voice and mastering follow the approved Lewis `bm_lewis` Saved 02 treatment from
 - Pause approximately 0.32 seconds.
 - Recurring identification, as a single utterance: “I am Brother Rubicon. The die's cast.”
 - Pause approximately 0.32 seconds.
-- Concise instructions: “Seek to a random point during the encounters. Ignore any encounter already in progress. Your encounter is the next complete scene you hear from its beginning.”
+- Concise instructions: “This is Relics and Curiosities. Seek to a random point during the encounters. Ignore any encounter already in progress. Your encounter is the next complete scene you hear from its beginning.”
 - Closing coda, not disclosed in public notes: “There ought to be an inventory. I have never found one that was complete.”
 
 ## Production and acceptance
