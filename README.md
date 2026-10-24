@@ -23,6 +23,7 @@ Not primarily a show to *listen to*: a collection of audio instruments you can u
 - [Companion app size research backlog](docs/COMPANION_APP_SIZE_SURVEY_TODO.md)
 - [Wilderness Oracle: 80 original encounter scripts](manuscripts/WILDERNESS_ORACLE_80.md)
 - [Creatures Behaving Strangely: 80 encounter scripts](manuscripts/CREATURES_BEHAVING_STRANGELY_80.md)
+- [Relics and Curiosities: 80 encounter scripts](manuscripts/RELICS_AND_CURIOSITIES_80.md)
 - [Audio production runbook: the existing GitHub Actions studio](docs/AUDIO_PRODUCTION_RUNBOOK.md)
 - [Seed for a separate audio-native games project](docs/SISTER_PROJECT_SEED.md)
 
