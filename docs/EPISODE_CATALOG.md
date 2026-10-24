@@ -33,14 +33,11 @@ Eight more full-length audio recordings are published in the [same subscription 
 | 12 | D8 · Eight Paths | 45 permutations of 1–8 (360 outcomes) | 30:00 |
 | 13 | D12 · Twelve Paths | 30 permutations of 1–12 (360 outcomes) | 30:00 |
 
-Each provides *exact frequencies across the functional recording*, conditional on selecting uniformly distributed time slots. Sequential results are generally not independent, and hand-operated seeking may not be uniform. The old 01–03 recordings remain in RSS with their original media preserved as **archival experiments**, described honestly: 01 is globally balanced but locally constrained; 02 and 03 were drawn independently with correct generating probabilities but their particular fixed recordings are not globally balanced (D100 omits six numbers).
+Each provides *exact frequencies across the functional recording*, conditional on selecting uniformly distributed time slots. Sequential results are generally not independent, and hand-operated seeking may not be uniform. The original D20 remains a valid full episode using balanced shuffled sets. Only the original 2D6 and D100 are archival experiments: they used fair generators, but their fixed recordings are not globally balanced (the original D100 omits six possible numbers).
 
 - [All eight playable editions and method notes](https://udeudeude.github.io/thdies-cast/dice-methods/)
 - [Versioned production manifest with precise sequences](https://github.com/udeudeude/udeudeude.github.io/blob/main/thdies-cast/dice-methods/manifest.json)
-- [No-chapter illustrated D20 video, built from the user's LightHouse D20 mesh](https://udeudeude.github.io/thdies-cast/dice-methods/#lighthouse-video)
-- [Dedicated video-podcast subscription feed](https://udeudeude.github.io/thdies-cast/video-feed.xml)
 
-The illustrated D20 is an optional MP4 video rendition of episode 08, *not* an audio chapter-art workaround and not a required companion app.
 
 ## Category 1: Dice & Probability Tools
 
