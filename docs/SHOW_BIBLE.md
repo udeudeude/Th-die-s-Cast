@@ -23,11 +23,11 @@ An audio-first utility podcast for tabletop games. Rather than regular conversat
 
 **Standard sentence, exact wording and order:** `I am Brother Rubicon. The die's cast.` This comes **after** the distinct introductory observation in every episode. The `I am` is important: never shorten to `Brother Rubicon. The die's cast.`. A brief, functional die-method instruction can follow this fixed sentence. The series' printed title remains **Th’die’s Cast**.
 
+**Performance pause:** Insert a subtle ~0.3-second silent beat *before* and *after* the entire fixed sentence, without breaking the sentence itself. Explain seeking as the original D20 does: seek to a random point during the rolls, disregard a number already underway, and use the next number heard from its beginning. Avoid the vague shorthand “Seek to the next complete result.”
+
 **Every dice episode receives a different ending**. Understated little jokes are acceptable; unexplained remarks leaving a disturbance are strongly preferred. The favorite example so far is: **“I believe that was the last. I had been told there would be one more.”** Keep the space between the last valid result and any false roll or epilogue short and conversational; no conspicuously long silence. A false roll is explicitly not a valid game outcome.
 
-**Publishing strategy:** Multiple episodes with the same dice system, different balanced orderings and different Rubicon observations are desirable. Preserve historic experiments as clearly labeled **archival/experimental** episodes when technically practical; make the accurately balanced recordings the default recommendations. Distinguish *global frequency balance* from *sequential independence*, and describe what nonuniform hand seeking can do. Expand naturally to D4, D8, D12, and other dice.
-
-**Visual experiment:** Investigate a D20 video-podcast version using the numbered icosahedron artwork from the user's [LightHouse](https://github.com/udeudeude/LightHouse) project, changed with each number. It must **not** use one podcast chapter per die result. Favor a separate downloadable video-podcast episode/feed if ordinary audio episode metadata cannot update artwork per result; keep an equivalent audio-only die for practical listening.
+**Publishing strategy:** Multiple episodes with the same dice system, different balanced orderings and different Rubicon observations are desirable. Preserve the original D20 as a current, valid balanced method; only designate the original unbalanced 2D6 and D100 recordings as archival experiments. Make the new balanced recordings the recommended 2D6 and D100 versions. Distinguish *global frequency balance* from *sequential independence*, and describe what nonuniform hand seeking can do. Expand naturally to D4, D8, D12, and other dice.
 
 ## Hidden end-of-episode epilogues
 
